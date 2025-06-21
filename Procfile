@@ -1,1 +1,1 @@
-web: gunicorn heavenlydining.wsgi
+web: gunicorn uniquedining.wsgi
