@@ -25,8 +25,13 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('booking/', booking, name='booking'),
     path('', homePage, name='home'),
-    path('', aboutPage, name='aboutus'),
-    path('', menuPage, name='menu'),
-    path('', contactPage, name='contact'),
+    path('about/', aboutPage, name='aboutus'),
+    path('menu/', menuPage, name='menu'),
+    path('contact/', contactPage, name='contact'),
 
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+# The above code sets up the URL routing for the Django project, linking paths to their respective views.
