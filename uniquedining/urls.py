@@ -16,12 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from booktable.views import booking
 from django.conf import settings
 from django.conf.urls.static import static
+from booktable.views import booking, homePage, aboutPage, contactPage, menuPage
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('booking/', booking, name='booking'),
+    path('', homePage, name='home'),
+    path('', aboutPage, name='aboutus'),
+    path('', menuPage, name='menu'),
+    path('', contactPage, name='contact'),
+
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
