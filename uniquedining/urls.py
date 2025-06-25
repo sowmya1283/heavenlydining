@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from booktable.views import booking, homePage, aboutPage, contactPage, menuPage
+from booktable.views import booking, homePage, aboutPage, loginPage, menuPage
 
 
 urlpatterns = [
@@ -27,7 +27,7 @@ urlpatterns = [
     path('', homePage, name='home'),
     path('about/', aboutPage, name='aboutus'),
     path('menu/', menuPage, name='menu'),
-    path('contact/', contactPage, name='contact'),
+    path('login/', loginPage, name='login'),
 
 ]
 

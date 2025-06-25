@@ -15,8 +15,8 @@ def aboutPage(request):
     return HttpResponse("This is about page")
 
 
-def contactPage(request):
-    return HttpResponse("This is contact page")
+def loginPage(request):
+    return render(request, 'login.html')
 
 
 def menuPage(request):
