@@ -22,9 +22,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path("", include("booktable.urls"), name="booktable-urls"),  # Include the booktable app URLs
-    # Uncomment the following lines to include the views directly if needed
-    
+    path("", include("booktable.urls"), name="booktable-urls"), 
 ]
 
 

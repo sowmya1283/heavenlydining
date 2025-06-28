@@ -12,7 +12,10 @@ class HomePageView(generic.TemplateView):
 
 
 class BookingListView(generic.ListView):
-    model = Booking
+    #model = Booking
+    queryset = Booking.objects.all()
+    template_name = "booktable/booktable_list.html"
+
     
 
 '''
