@@ -8,7 +8,7 @@ from .models import Booking, UserProfile
 # Create your views here.
 
 class HomePageView(generic.TemplateView):
-    template_name = "home.html"
+    template_name = "booktable/home.html"
 
 
 class BookingListView(generic.ListView):
