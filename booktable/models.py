@@ -21,5 +21,10 @@ class Booking(models.Model):
     booking_time = models.TimeField()
     llergies = models.TextField(blank=True, null=True)
 
+    class Meta:
+        ordering = ['user']
+        verbose_name = 'Booking'
+        verbose_name_plural = 'Bookings'
+
     def __str__(self):
         return f"Booking by {self.user.usename} on {self.booking.date} at {self.booking_time} for {self.table_size} people" 

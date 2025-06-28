@@ -15,21 +15,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from booktable.views import booking, homePage, aboutPage, loginPage, menuPage
+#from booktable.views import booking, homePage, aboutPage, loginPage, menuPage, signupPage
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('booking/', booking, name='booking'),
-    path('', homePage, name='home'),
-    path('about/', aboutPage, name='aboutus'),
-    path('menu/', menuPage, name='menu'),
-    path('login/', loginPage, name='login'),
-
+    path("", include("booktable.urls"), name="booktable-urls"),  # Include the booktable app URLs
+    # Uncomment the following lines to include the views directly if needed
+    
 ]
+
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
