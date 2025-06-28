@@ -19,7 +19,7 @@ class Booking(models.Model):
     table_size = models.PositiveIntegerField()
     booking_date = models.DateField()
     booking_time = models.TimeField()
-    llergies = models.TextField(blank=True, null=True)
+    allergies = models.TextField(blank=True, null=True)
 
     class Meta:
         ordering = ['user']
@@ -27,4 +27,4 @@ class Booking(models.Model):
         verbose_name_plural = 'Bookings'
 
     def __str__(self):
-        return f"Booking by {self.user.usename} on {self.booking.date} at {self.booking_time} for {self.table_size} people" 
+        return f"Booking by {self.user} on {self.booking_date} at {self.booking_time} for {self.table_size} people" 
