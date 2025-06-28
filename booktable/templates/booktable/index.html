@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to Booking Table{% endblock %}
+
+{% block content %}
+<div class="text-center my-5">
+    <h1 class="display-4">Welcome to Heavenly Dining</h1>
+    <p class="lead">Reserve your table for a divine dining experience.</p>
+    <a href="{% url 'booking_list' %}" class="btn btn-primary btn-lg mt-3">Book a Table</a>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4 text-center">
+        <h3>Fresh Ingredients</h3>
+        <p>Locally sourced, high-quality ingredients in every dish.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <h3>Cozy Atmosphere</h3>
+        <p>Perfect for family dinners, dates, and celebrations.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <h3>Easy Online Booking</h3>
+        <p>Reserve your table in just a few clicks.</p>
+    </div>
+</div>
+{% endblock %}
