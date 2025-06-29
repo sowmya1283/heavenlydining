@@ -13,10 +13,17 @@ class HomePageView(generic.TemplateView):
 
 class BookingListView(generic.ListView):
     #model = Booking
-    queryset = Booking.objects.all()
+    queryset = Booking.objects.all().order_by('-booking_date')
     template_name = "booktable/booktable_list.html"
+    context_object_name = 'bookings'
+    paginate_by = 5
 
-    
+
+class UserProfileView(generic.DetailView):
+   # model = UserProfile
+    queryset = UserProfile.objects.all()
+    template_name = "booktable/user_profile.html"
+    context_object_name = 'user_profile'
 
 '''
 def booking(request):
