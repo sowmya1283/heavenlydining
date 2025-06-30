@@ -41,11 +41,13 @@ class BookingListView(generic.ListView):
 
 
 
-class UserProfileView(generic.DetailView):
-   # model = UserProfile
-    queryset = UserProfile.objects.all()
+class UserProfileView(LoginRequiredMixin,generic.DetailView):
+    model = UserProfile
     template_name = "booktable/user_profile.html"
     context_object_name = 'user_profile'
+
+    def get_object(self, queryset=None):
+        return get_object_or_404(UserProfile, user=self.request.user)
 
 
 class BookingCreateView(LoginRequiredMixin, CreateView):

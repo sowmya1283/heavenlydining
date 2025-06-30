@@ -10,7 +10,7 @@ from .views import HomePageView, BookingListView, BookingCreateView, BookingUpda
 urlpatterns = [
     path("", views.HomePageView.as_view(), name="home"),
     path("booking/", views.BookingListView.as_view(), name="booking_list"),
-    path("userprofile/<int:pk>/", views.UserProfileView.as_view(), name="user_profile"),
+    path("userprofile/<str:username>/", views.UserProfileView.as_view(), name="user_profile"),
     path('book/', BookingCreateView.as_view(), name="book_table"),
     path('booking/<int:pk>/edit/', BookingUpdateView.as_view(), name="edit_booking"),
 ]
