@@ -26,4 +26,9 @@ class Booking(models.Model):
         verbose_name_plural = 'Bookings'
 
     def __str__(self):
-        return f"Booking by {self.user} on {self.booking_date} at {self.booking_time} for {self.table_size} people" 
+        return (
+            f"Booking by {self.user} "
+            f"on {self.booking_date} "
+            f"at {self.booking_time} "
+            f"for {self.table_size} people"
+        )
