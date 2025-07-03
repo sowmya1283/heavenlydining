@@ -4,14 +4,14 @@
 
 {% block extra_head %}
 
-<link rel="stylesheet" href="{% static 'css/user_profile.css' %}">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
 {% endblock extra_head %}
 
 {% block title %} User Profile - {{ user.username }} {% endblock title %}
 
 {% block content %}
 <div class="container mt-5">
-  <h2 class="mb-4">Welcome, {{ user.first_name }}!</h2>
+  <h2 class="mb-4">Welcome, {{ user.username }}!</h2>
   <div class="card mb-4">
     <div class="card-header bg-primary text-white">
       <h5 class="mb-0">User Details</h5>
@@ -21,7 +21,7 @@
       <p><strong>Email:</strong> {{ user.email }}</p>
       <p><strong>First Name:</strong> {{ user.first_name }}</p>
       <p><strong>Last Name:</strong> {{ user.last_name }}</p>
-      <!-- Add more profile fields if you have any, for example: -->
+   
       {% if user_profile.phone %}
       <p><strong>Phone:</strong> {{ user_profile.phone }}</p>
       {% endif %}

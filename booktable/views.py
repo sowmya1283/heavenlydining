@@ -17,6 +17,14 @@ from .models import Booking
 class HomePageView(generic.TemplateView):
     template_name = "booktable/index.html"
 
+
+class MenuView(TemplateView):
+    template_name = 'booktable/menu.html'
+
+
+class AboutPageView(TemplateView):
+    template_name = 'booktable/aboutus.html'
+
 #This is a class based view that lists all bookings in the database.
 class BookingListView(LoginRequiredMixin, generic.ListView):
 
@@ -40,6 +48,11 @@ class UserProfileView(LoginRequiredMixin, generic.DetailView):
 
     def get_object(self, queryset=None):
         return get_object_or_404(UserProfile, user=self.request.user)
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['user'] = self.request.user
+        return context
 
 
 class BookingCreateView(LoginRequiredMixin, CreateView):
@@ -79,3 +92,7 @@ def delete_booking(request, pk):
         return redirect('booking_list')
 
     return render(request, 'booktable/confirm_delete.html', {'booking': booking})
+
+
+class PrivacyPolicyView(TemplateView):
+    template_name = "booktable/privacy_policy.html"
