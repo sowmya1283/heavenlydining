@@ -1,4 +1,4 @@
-{% extends base.html %}
+{% extends 'base.html' %}
 
 {% load static %}
 
@@ -11,17 +11,25 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h2 class="mb-4">Welcome, {{ user.first_name }}!</h2>
-    <div class="card mb-4">
-        <div class="card-header bg-primary text-white">
-          <h5 class="mb-0">User Details</h5>
-        </div>
-        <div class="card-body">
-          <p><strong>Username:</strong> {{ user.username }}</p>
-          <p><strong>Email:</strong> {{ user.email }}</p>
-          <p><strong>First Name:</strong> {{ user.first_name }}</p>
-          <p><strong>Last Name:</strong> {{ user.last_name }}</p>
-        </div>
-      </div>
+  <h2 class="mb-4">Welcome, {{ user.first_name }}!</h2>
+  <div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">User Details</h5>
+    </div>
+    <div class="card-body">
+      <p><strong>Username:</strong> {{ user.username }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>First Name:</strong> {{ user.first_name }}</p>
+      <p><strong>Last Name:</strong> {{ user.last_name }}</p>
+      <!-- Add more profile fields if you have any, for example: -->
+      {% if user_profile.phone %}
+      <p><strong>Phone:</strong> {{ user_profile.phone }}</p>
+      {% endif %}
+
+      {% if user_profile.address %}
+      <p><strong>Address:</strong> {{ user_profile.address }}</p>
+      {% endif %}
+    </div>
+  </div>
 </div>
 {% endblock content %}
