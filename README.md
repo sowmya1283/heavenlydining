@@ -112,12 +112,17 @@ Wireframes were added to this project to keep my thoughts structured and to avoi
 
 [User Profile Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/userprofile.jpg)
 
+### Database Schema:
+
+I have used DrawSQL​ to draw the structure of my database. Please find the attached image below.
+
+[DataBase Schema]()
+
 ### Colour Scheme:
 
-When making my selection, I wanted to go with a color palette that was stylish. For this reason, I went with a light blue navigation bar and accent colors of dim light orange and grey. To gauge the contrast scores, I developed a colour grid using the colour https://contrast-grid.eightshapes.com/ . I was able to guarantee that all text stayed visible and that everyone could visit the website by using this grid.
+For the Unique Dining website, I opted for a stylish yet subtle color palette with dark colored navigation bar, paired with white and an oragne variant colors for heading and nav bar text items. The goal was to keep the design dark and not overly radiant, maintaining a refined and inviting atmosphere. To ensure all text remained legible and accessible, I used a contrast grid tool (https://contrast-grid.eightshapes.com/) to test various combinations. This helped guarantee that the site offers strong visual contrast while remaining comfortable for all visitors to navigate and read.
 
-
-![Color grid used](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/%20colorgrid.png)
+![Color grid used]()
 
 ## III. Current Features Common to all pages
 
