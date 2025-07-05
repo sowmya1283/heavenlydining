@@ -66,8 +66,6 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 - As a logged-in user, I want to view my upcoming reservations so I can remember my dining plans.
 - As a logged-in user, I want to cancel or modify my reservation so I can change my plans without needing to call.
 - As a guest (unauthorized user), I want to be redirected to log in or sign up when I try to book a table so I understand that booking is only available to registered users.
-- As a logged-in user, I want to receive a confirmation email after booking so I have a record of my reservation details.
-- As a logged-in user, I want to be notified if my preferred time slot is unavailable so I can choose another suitable time.
 - As a logged-in user, I want to view my past reservations so I can keep track of my dining history.
 
 
