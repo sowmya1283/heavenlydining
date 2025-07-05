@@ -16,15 +16,14 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 
 ## Table of contents:
 
-## I. Site Overview
 - [I. Site Overview](#i-site-overview)
-## II. Planning stage
- ### - Target Audiences
- ### - User Stories
- ### - Site Aims
- ### - How Is This Will Be Achieved:
- ### - Wireframes
- ### - Colour Scheme
+- [II. Planning Stage](#ii-planning-stage)
+  - [Target Audiences](#target-audiences)
+  - [User Stories](#user-stories)
+  - [Site Aims](#site-aims)
+  - [How Is This Will Be Achieved](#how-is-this-will-be-achieved)
+  - [Wireframes](#wireframes)
+  - [Colour Scheme](#colour-scheme)
 ## III. Current Features Common to all pages
 ### - Header Element:
    ####   **_Title_**
