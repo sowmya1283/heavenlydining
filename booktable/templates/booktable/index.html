@@ -1,12 +1,20 @@
 {% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
 
-{% block title %}Welcome to Booking Table{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+
 
 {% block content %}
-<div class="text-center my-5">
-    <h1 class="display-4">Welcome to Heavenly Dining</h1>
-    <p class="lead">Reserve your table for a divine dining experience.</p>
-    <a href="{% url 'booking_list' %}" class="btn btn-primary btn-lg mt-3">Book a Table</a>
+
+<div class="hero">
+    <img src="{% static 'images/hero/hero2.jpg' %}" alt="Unique Dining in Ireland" class="hero-image">
+    <div class="hero-text">
+        <h1>Welcome to Heavenly Dining</h1>
+        <p>Experience Ireland’s Most Unique Culinary Journey</p>
+    </div>
 </div>
 
 <div class="row mt-5">
