@@ -24,10 +24,10 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [How This Will Be Achieved](#how-this-will-be-achieved)
   - [Wireframes](#wireframes)
   - [Colour Scheme](#colour-scheme)
-  - [III. Current Features Common to all pages](#iii-current-features-common-to-all-pages)
-   - [Navbar Description](#navbar-description)
-    - [Navigation Bar](#navigation-bar)
-    - [Navigation Links](#navigation-links)
+- [III. Current Features Common to all pages](#iii-current-features-common-to-all-pages)
+  - [Navbar Description](#navbar-description)
+      - [Navigation Bar](#navigation-bar)
+      - [Navigation Links](#navigation-links)
   - [Footer](#footer)
   - [Typography](#typography)
 
@@ -91,7 +91,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 Wireframes were added to this project to keep my thoughts structured and to avoid any discrepancies from the actual website design. Links to the five targeted pages on desktop and mobile platforms are provided below.
 
 
-**_Desktop wireframes:_**
+**_Wireframe Links:_**
 
 [Welcome Home Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/home.jpg)
 
@@ -173,7 +173,7 @@ For New Users:
    A link to the Privacy Policy page is provided to support transparency and compliance.
 - A statement is planned to indicate that the website content—including photographs—is the property of Unique Dining and is for educational purposes only, as per guidance received from the Code Institute community
 
-![Footer]()
+![Footer](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/footer.jpg)
 
 ### Typography
 
@@ -186,110 +186,165 @@ The website uses a clean and professional typography style to enhance readabilit
 
 ## IV. Individual Page Content features
 
-### Home Page Or ‘Welcome Home!’ Page:
+### Home Page Or ‘Welcome To Unique Dining!’ Page:
+
+- The Home Page of Unique Dining serves as the welcoming entry point for visitors, offering a quick snapshot of what the restaurant stands for. 
+- The top section features a hero image that visually represents the ambiance and character of Unique Dining. 
+- Overlaying the image is a bold, warm welcome message with the tagline “Experience Ireland’s Most Unique Culinary Journey”, setting the tone for a premium dining experience.
+
+- Below the hero section, three informational columns highlight the restaurant’s key strengths:
+
+   Fresh Ingredients – Emphasizing the use of high-quality, locally sourced Irish produce.
+   Cozy Atmosphere – Reflecting the welcoming environment suitable for families, couples, and special occasions.
+   Easy Online Booking – Showcasing the modern, user-friendly table reservation feature.
+
+- The layout is responsive, with Bootstrap classes ensuring the content is well-aligned and accessible across all screen sizes. This page is designed to be visually engaging, informative, and easy to navigate, guiding users further into exploring the menu or booking a table.
+
+![Home Page]()
 
 **_Hero-Image:_**
 
-Very striking and colourful hero image for a website that displays a range of artistic crafts. A variety of colourful supplies and equipment, including yarn, coloured pencils, beads, fabric and paintbrushes are used in the scenario. There’s a hand-drawn sign in the foreground that says “Handmaade Hobbies.” As you can see, the image has two ‘AA’’s in the ‘HANDMAADE’ just to be more creative.
-The background image is configured to cover with the position centre, thus the image appears fantastic on all screen resolution.
+- The hero image is the visual centerpiece of the homepage, designed to immediately capture the visitor’s attention and reflect the essence of the dining experience. 
+- The image features a high-quality photograph (hero2.jpg) that conveys a sense of warmth, elegance, and Irish hospitality—perfectly aligning with the brand identity.
+
+- Overlaid text includes:
+
+   A main heading: “Welcome to Unique Dining”
+   A subheading/tagline: “Experience Ireland’s Most Unique Culinary Journey”
+
+- This combination of imagery and text sets the emotional tone of the site, inviting users to explore the restaurant and what it offers. - The hero section spans the full width of the page and adapts to different screen sizes, ensuring consistent visual impact across devices.
+
+This hero image helps establish a strong first impression and creates a memorable visual identity for the restaurant.
 
 ![Hero Image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/hero.png)
 
+### Menu Page:
 
-Inside the hero image, an overlay with the craft categories are listed in this web site. This is added because to create an customer attention or to make a positive impact to a new visitor on the website. This text is made readable with a transparent background making it easier to notice. The position of this overlay is made absolute so that it can be placed on top of the Hero image.
+- The Menu Page of Unique Dining offers a clear and inviting display of the restaurant's full culinary selection. 
+- Designed for ease of use and elegant presentation, the page is structured to guide the user through various sections of the menu. 
+- The page opens with a centered title: “Our Menu”, providing immediate context. The menu is categorized into four main sections:
 
-**_What? , Why? and Benefits! Section:_**
+   Starters: Includes traditional Irish appetizers like Smoked Salmon on brown bread and Potato & Leek Soup.
+   Main Courses: Highlights comforting dishes such as Guinness Beef Stew and Irish Lamb Shank.
+   Desserts: Offers indulgent sweet options including Baileys Cheesecake and Sticky Toffee Pudding.
+   Beverages: Lists classic Irish drinks such as Irish Coffee, Barry’s Tea, and Guinness Draught.
 
-The main purpose of the website is to inspire, convey information or benefits of handmade craft items , connect with like-minded hobbyists , to reach out to the author for any collaborative work and etc. Therefore the section below the hero image is divided into three parts with detail information about ‘What is’ handmade hobbies is all about? ‘Why’ Handmade hobbies? and ‘Benefits’ of Handmade hobbies for any individual.
+- Each item is presented using Bootstrap's list group component for consistency and readability. 
+- Prices are clearly marked in euros (€) and aligned to the right using float-end for a professional menu layout. Responsive design ensures the menu is accessible and legible on all screen sizes. 
+- This page provides users with a flavorful glimpse into the Unique Dining experience, combining traditional Irish cuisine with a polished and accessible presentation.
 
-As you can see the images below, they are having a title information as mentioned above.
+![Menu Page]()
 
-![What are handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/what.png)
+### Login Page:
 
-![Why handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/why.png)
+- The Login Page of Unique Dining is designed to provide a seamless and user-friendly experience for returning users who wish to access personalized features.
+- The page allows registered users to log in securely using their email or username and password.
+- It uses Django Allauth's built-in authentication system for robust and secure login handling.
+- The interface is clean and minimal, keeping user focus on the login form.
+- The login page also contains a link to the registration page, encouraging new users to sign up if they don’t have an account.
 
-![Benefits of handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/benefits.png)
+![Login Page]()
 
-The above section is also made responsive based on the Mobile, Tablet and Laptop version. Enough padding is added to make the content displayed neatly within the div for larger screens. Whereas padding has been reduced to make sure that this content is more readable on mobile devices.
+### Sign up Page:
 
-**_Circular image:_**
+- The Sign Up Page provides new users with a simple and secure way to create an account on the Unique Dining platform, unlocking personalized dining experiences.
+- The form allows users to register by entering a username, Optional Fields (email address, phone number, address) and password (with confirmation).
+- The page uses Django Allauth for secure authentication and validation.
+- Fields are clearly labeled and include helpful validation messages to guide users.
+- A "Log in" link is provided for users who already have an account.
 
-Circular image has been added to match the handmade hobbies content which is mentioned above and is responsive according to the screen resolution.
+After signing up, users can:
 
-The circular image conveys the message that what users will be doing when they see handmade hobbies. The image has seven sections where people are involved in crochet, knitting, moulding clay, painting etc.
+- Log in and access the table booking features.
+- View and manage their personal profile and booking history.
 
-![Added circular screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/circularimage.png)
+![Signup Page]()
 
-**_Meetup Times:_**
+### View Bookings Page
 
-The last section of our welcome home page is our ‘Meetup times’ section. A website’s “Meetup” section can greatly increase consumer interaction, offer social and educational benefits, and also will help to create a solid, dedicated client base. It may provide lively and engaging environment for their clients by providing a range of activities and making sure that communication is simple.
+- The View Bookings Page allows authenticated users to view all their past and upcoming reservations in one convenient place.
+- Table Display: Bookings are presented in a clean, tabular format showing essential details such as:
 
-This section provides visitors about all the necessary information about our timings of meetup events happening over the complete week. Based on the information provided on the website user can decide which meetup session they want to join.
-this meetup events tell information like time, day of the meetup and what will be the agenda of the meetup.
+   User 
+   Date & Time of booking
+   Table Size that is Number of guests
+   Actions (With Edit and Delete links)
 
-![Meetup time screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/meetup_times.png)
+- Only the bookings related to the logged-in user are shown.
+- If no bookings exist, a friendly message like "You have no upcoming reservations" is displayed.
+- Users may have the option to edit or cancel a booking directly from this page, depending on the project’s scope and implementation.
+- User can go back to 'Book A Table' link anytime and book a new table.
+- This page offers a centralized hub for users to manage their dining plans, enhancing usability and giving users a sense of control and trust in the platform.
 
-## All the other page contents(Similar to Gallery)
+![View Bookings Page]()
 
-All the pages apart from welcome home page in the website are similar like ‘Gallery’ pages. They have different images files loaded and are responsive to the screen sizes. On mobile screens, these images are loaded in single column. As the screen size increases the column are spread-out. To help the visually impaired users on the scenario of failed image loading, an alt text has been added to each image. In-case of image loading fails, the alt text displays. Columns will increase according to the screen size. (eg., for mobile single column, for tablet 3 columns and laptops four columns)
+### Book A Table Page
 
-### Crazy For Crochet Page:
+- The Book a Table page is designed to allow registered and logged-in users to seamlessly reserve a table at Unique Dining with just a few inputs.
+- A simple, user-friendly form where users can input:
+   Date of reservation
+   Time of booking
+   Number of guests
+   Special requests
 
-- A wide range of creative possibilities are offered by Crochet. Some examples are clothing, baby items, home decor items, accessories, seasonal items etc.
-- This crochet gallery page has some beautiful images to inspire the hobbyists.
-- The gallery page has only image content, no text content has been added to this.
+- Only authenticated users can access this page.
+- Field validations are applied to ensure:
 
-![Crazy for crochet gallery page ](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/Crazyforcrochetpage.png)
+   Table sizes are between 1 and 20 guests
+   Booking times are between 10 and 22 hrs.
+   User cannot book a table for past time.
+   Required fields are properly filled
 
-### Mosaic Art Page:
+With this setup, Unique Dining ensures efficient table management while providing guests with a smooth, reliable booking experience.
 
-- Mosaic art is a form of decorative art mainly from different cultural background like Greece, Roman and Islamic traditions. Created using small piece of materials such as stone, glass pieces, ceramic or tiles etc.
-- This Mosaic gallery page has some beautiful images to inspire the hobbyists.
-- The gallery page has only image content, no text content has been added to this.
+![Book Table Page]()
 
-![Mosaic art page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/MosaicArtPage.png)
+### Logout Page
 
-### Quilling Craft Page:
+- The Logout Page allows users to securely end their session on the Unique Dining platform. Once a user clicks the Logout button, they are automatically signed out of their account and redirected to the home page (or login page, depending on the site configuration).
+- This ensures that user data and booking information remain private and secure. A confirmation message is displyed to the user asking whether they really want to logout?
+- This functionality is managed using Django Allauth, which handles session termination securely and efficiently.
 
-- Quilling is a form of paper art which is made using strips of paper. These stripes are rolled, glued to create different shapes.
-- The Quilling Craft gallery page has some beautiful images to inspire the hobbyists.
-- The gallery page has only image content, no text content has been added to this.
+![Logout page]()
 
-![Quilling craft page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/QuillingCraft.png)
+### About Us Page
 
-### Sign Up page content
+- The About Us page of the Unique Dining website introduces visitors to the restaurant’s identity, philosophy, and story. Designed with a clean and professional layout, the page emphasizes the brand’s core values: passion for food, elegance in ambiance, and a commitment to memorable dining experiences.
 
-- The purpose of this page is to simulate the process of submitting a form.
-- A background image with light golden colour which is in contrast for the form colour.
-- A hand holding heart font has been added before the ‘Let’s get you signed up!’ text. This icon is from font-awesome.
-Adjusted the image and the form properly by using margin-top. The large gap between the nav and the form were reduced using this property.
-- All the radio buttons were not aligned properly at the initial stage and they have been made to spread-out with justify content property.
+Key highlights of the page include:
 
-![Sign up page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/Signuppage.png)
+- Brand Introduction: A compelling narrative about Unique Dining’s mission to blend global flavors with locally sourced ingredients.
+- Dining Experience: It communicates the atmosphere of the restaurant — refined, inviting, and suitable for everything from casual meals to special celebrations.
+- Chef Philosophy: The emphasis on handcrafted, innovative dishes conveys quality and creativity in the kitchen.
+- Contact Details: Essential contact information such as phone number, email, and address is clearly presented, allowing customers to reach out or plan their visit with ease.
+
+The content is wrapped in a styled card using Bootstrap classes (card, shadow-sm, p-4), offering a visually appealing and readable format that matches the overall theme of the website.
+
+![About us page]()
 
 ## V. Future-Enhancements
 
-- The future intention of the site would be to serve as a website specifically to grow visitors and involve more hobbyists to sign up to the website. To add more content related to new designs, tutorials, different type of materials used. If possible enhance the website to create a buy and sell platform at later stages.
-- At first, the purpose would remain to inspire people and spread awareness about benefits of hand-crafted items. However, There would be additional content as mentioned above.
-- Video tutorials of all the handmade craft items.
-- How to choose materials to use for different kind of handmade craft items.
-- Handmade hobbies account creation on different social media platforms and linking them to the website.
-- Bringing users designs on the webpage.
-- Improvising the media content format on the different gallery pages.
-- I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
+- Booking as a guest: Allow users to book a table without needing to register or log in. A simple form would collect basic details like name, email, and phone number.
+- Online Food Ordering System: Enable users to browse the full menu, add items to a cart, and place food orders for delivery or pickup.
+- Admin Dashboard: Implement a secure admin interface for restaurant staff to manage bookings, view statistics, and update menu items dynamically.
+- Live Table Availability: Display real-time availability of tables so users can see open slots before starting the booking process.
+- Email & SMS Notifications: Send automatic booking confirmations and reminders to users via email or text message.
+- Google Maps Integration: Embed Google Maps to help users easily locate the restaurant and get directions.
+- User Reviews & Ratings: Allow users to leave reviews and rate their dining experience to help others make informed choices.
+- Loyalty & Rewards Program: Introduce a points-based loyalty system to reward frequent diners with discounts or special offers.
+- Allergy Preference Save Option: Let users save dietary preferences or allergy information in their profiles for faster future bookings
+- Multilingual Support: Add support for multiple languages to make the site accessible to a broader audience.
+- Accessibility Improvements: Improve accessibility for users with disabilities by refining keyboard navigation, adding ARIA labels, and adjusting contrast settings.
 
 ## VI. Testing Phase
 
-I have a second document named [TESTING_PHASE.md](https://github.com/sowmya1283/handmadehobbies/blob/main/TESTING_PHASE.md) that contains information about testing both during and after development.
+I have a second document named [TESTING_PHASE.md]() that contains information about testing both during and after development.
 
 ## VII. Deployment
 
 I deployed the page on GitHub pages via the following procedure: -
 
-- From the project’s repository, go to the Settings tab.
-- From the left-hand menu, select the Pages tab.
-- Under the Source section, select the Main branch from the drop-down menu and click Save.
-- A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+- 
 - You can find the live site via the following URL- https://sowmya1283.github.io/handmadehobbies/
 
 ## VIII. Credits
@@ -320,12 +375,4 @@ This project could not have happened without the support of the following people
 ### Media:
 
 1. Handmade Hobbies logo is generated and modified from - https://ideogram.ai/ and Canva respectively.
-2. Some Quilling Craft gallery images are taken from - https://www.freepik.com/
-3. Some Quilling Craft gallery images are taken from - https://stock.adobe.com/
-4. Some Mosaic Art gallery images are taken from - https://stock.adobe.com/
-5. Some Crazy For Crochet gallery images are generated from - https://ideogram.ai/
-6. Some Crazy For Crochet gallery images are generated from - https://stock.adobe.com/
-7. Some Crazy For Crochet gallery images are generated from - https://www.freepik.com/
-8. Screenshot under README.md section titled “site overview” was created using - https://ui.dev/amiresponsive
-9. Some of the images are from google images - https://www.google.com/imghp?hl=en-GB&tab=ri&authuser=0&ogbl
-10. Some of the images are resized using - https://www.tinypng.com
+

@@ -10,6 +10,7 @@ from django.views.generic.edit import UpdateView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
 from .models import Booking
+from .forms import BookTableForm
 
 
 # Create your views here.
@@ -57,7 +58,8 @@ class UserProfileView(LoginRequiredMixin, generic.DetailView):
 
 class BookingCreateView(LoginRequiredMixin, CreateView):
     model = Booking
-    fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
+    #fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
+    form_class = BookTableForm
     template_name = 'booktable/book_table.html'
     success_url = reverse_lazy('booking_list') # or redirect to a confirmation page
 
