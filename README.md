@@ -94,23 +94,23 @@ Wireframes were added to this project to keep my thoughts structured and to avoi
 
 **_Desktop wireframes:_**
 
-[Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/WelcomePagedesktop.png)
+[Welcome Home Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/home.jpg)
 
-[Menu Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochet%20Page_desktop.png)
+[Menu Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/menu.jpg)
 
-[Signin Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Maosaic%20Art%20Page_desktop.png)
+[Signin Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/signin.jpg)
 
-[SignupPage](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QullingArt_page_desktop.png)
+[SignupPage](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/signup.jpg)
 
-[Book Table Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+[Book Table Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/bookatable.jpg)
 
-[View Bookings Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+[View Bookings Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/bookinglist.jpg)
 
-[Logout Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+[Logout Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/logout.jpg)
 
-[About Us Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+[About Us Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/aboutus.jpg)
 
-[User Profile Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+[User Profile Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/wireframes/userprofile.jpg)
 
 ### Colour Scheme:
 
