@@ -31,12 +31,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
     - [Hero Image](#hero-image)
   - [Footer](#footer)
   - [Typography](#typography)
-## III. Current Features Common to all pages
-### - Navbar Description:
-   ####   **_Navigation Bar_**
-   ####   **_Hero Image_**
-### - Footer
-### - Typography  
+
 ## IV. Individual Page Content features
 ### - Home Page or Welcome Home Page
 ### - Crazy for Crochet Content Page
@@ -142,7 +137,7 @@ The header element stays fixed at the top of the page when the user first scroll
 - The navbar prominently displays the site title, “Unique Dining,” as a clickable brand link on the left side.
 - It is mobile-friendly, using the Bootstrap navbar-toggler button to collapse and expand the menu on smaller screens.
 
-![Nav Bar]()
+![Nav Bar](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/navbar.jpg)
 
 **_Navigation Links:_**
 
@@ -160,40 +155,35 @@ For New Users:
 - Register
 - Login
 
-- The active page is visually highlighted to inform users of their current location on the site using Django template tags and conditional classes.
 - Navigation links are aligned to the right (ms-auto), enhancing layout and readability.
 - If fixed-top or sticky-top is added, the navbar can stay at the top of the page as users scroll.
 
 
-![Hover over highlight]()
-
-### Hero Image
-
-- I have included a hero image in the ‘Welcome Home!’ page only.
-- All other pages are similar to gallery pages and have nav links.
-- And also a sign-up form also doesn’t have any logo image.
-- Hero image screenshot can be found in the Home page section further in the document.
-
-![Hero Image]()
+![Hover over highlight](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/navlinkhover.jpg) 
 
 ### Footer
 
-- The footer includes direct links to all the social media platform with the little icons
-- Initially social media platforms were having the placeholder texts then later replaced with icons. These icons are very small and take-up very little space.
-- Still Handmade Hobbies accounts on all those Social Media platform is pending to be developed in the upcoming phases. These links then will updated to connect to the respective pages.
-- These icons were imported from font awesome using Javascript at the bottom of the page.
-- A statement stating that all photographs on the website are the property of Handmade Hobbies and that the site is only meant for educational reasons was included. I added this after chatting on Slack with the Code Institute for suggestions.
+- The footer section of the Unique Dining website is designed to be clean and informative while maintaining consistency with the site’s dark color scheme. It includes the following elements:
+- Copyright Notice: Displays a centered copyright message with the business name and year.
+- Social Media Icons:
+   Direct links to Facebook, Instagram, and Twitter accounts for Unique Dining are included.
+   Icons are added using Font Awesome and styled to be compact and visually subtle with a consistent light color.
+   Each icon opens the social platform in a new tab (target="_blank").
+   Font Awesome is loaded via JavaScript at the bottom of the page for performance and proper rendering.
+- Legal Links:
+   A link to the Privacy Policy page is provided to support transparency and compliance.
+- A statement is planned to indicate that the website content—including photographs—is the property of Unique Dining and is for educational purposes only, as per guidance received from the Code Institute community
 
 ![Footer]()
 
 ### Typography
 
-Throughout the page, there are three fonts used:
+The website uses a clean and professional typography style to enhance readability and visual appeal:
 
-- Merienda- as the website intended to be creative. It has a font-family of Dancing style making the heading attractive.
-- Default fall back font-family has been given as sans-serif.
-- For all other headings including the navbar default font is used.
-- All fonts were sourced from Google fonts, as stated in the credits.
+- Roboto – Imported from Google Fonts, Roboto is used throughout the body text for its modern, geometric design and excellent legibility across devices. The link is included in the <head> of the HTML
+- Segoe UI – A system font used for headers and navigation areas. Known for its sharp, elegant design, it adds a subtle modern touch while ensuring good performance on Windows systems.
+- A fallback of sans-serif ensures that if the custom fonts are unavailable, the site remains readable and clean using the browser’s default sans-serif font
+- All fonts are selected with accessibility and user experience in mind, and performance is optimized by using widely supported, lightweight fonts.
 
 ## IV. Individual Page Content features
 
@@ -203,7 +193,6 @@ Throughout the page, there are three fonts used:
 
 Very striking and colourful hero image for a website that displays a range of artistic crafts. A variety of colourful supplies and equipment, including yarn, coloured pencils, beads, fabric and paintbrushes are used in the scenario. There’s a hand-drawn sign in the foreground that says “Handmaade Hobbies.” As you can see, the image has two ‘AA’’s in the ‘HANDMAADE’ just to be more creative.
 The background image is configured to cover with the position centre, thus the image appears fantastic on all screen resolution.
-
 
 ![Hero Image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/hero.png)
 

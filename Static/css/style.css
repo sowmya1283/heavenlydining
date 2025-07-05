@@ -35,6 +35,7 @@ body {
 }
 
 footer {
+  margin-top: 10px; 
   background-color: #222;
   color: #ddd;
   font-size: 0.9rem;
