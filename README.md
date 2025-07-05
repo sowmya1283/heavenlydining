@@ -24,10 +24,15 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [How This Will Be Achieved](#how-this-will-be-achieved)
   - [Wireframes](#wireframes)
   - [Colour Scheme](#colour-scheme)
+  - [III. Current Features Common to all pages](#iii-current-features-common-to-all-pages)
+  - [Header Element](#header-element)
+    - [Navigation Bar](#navigation-bar)
+    - [Navigation Links](#navigation-links)
+    - [Hero Image](#hero-image)
+  - [Footer](#footer)
+  - [Typography](#typography)
 ## III. Current Features Common to all pages
-### - Header Element:
-   ####   **_Title_**
-   ####   **_Logo_**
+### - Navbar Description:
    ####   **_Navigation Bar_**
    ####   **_Hero Image_**
 ### - Footer
@@ -126,39 +131,41 @@ For the Unique Dining website, I opted for a stylish yet subtle color palette wi
 
 ## III. Current Features Common to all pages
 
-### Header Element
+### Navbar Description
 
 The header element stays fixed at the top of the page when the user first scrolls through (or scrolls up and down). A Code Institute alumnus pointed out that the sticky header will improve user experience and adhere to prevailing trends. The header itself contains the below elements.
 
-**_Title:_**
-
-![Title Screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/title.png)
-
-- The title serves to state the name of the Website.
-- The title is present in Crazy For Crochet, Mosaic Art, Quilling Craft and Sign Up pages.
-- The title is not present in the ‘Welcome Home’ Page. Logo with the text same as Handmade Hobbies is presented to the user to appease.
-- Title in all other pages also serves as a navigation link to the home page “Welcome Home!” as per the well-established convention expected by the user.
-
-**_Logo:_**
-
-- The logos are created to the captivate user’s attention and to portray the website intentions. Colourful ai generated image of heart is presented in ‘Welcome Home!’ page. (The other pages have Title with the same text as mentioned in the logo of the home page.)
-
-- Logo on mobile devices ensured the title stays as big as possible on a smaller screen, improving the user experience.
-
-![logo](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/logo.png)
 
 **_Navigation Bar:_**
 
-- The navigation bar appears on all five pages (including the form Sign Up page) with a white background.
-- It contains links to the Welcome Home!, Crazy For Crochet, Mosaic Art , Quilling Craft and Sign Up page to allow easy navigation around the website.
-- The below image shows the user’s current page.
+- The navigation bar (navbar) serves as a consistent, fixed element at the top of the website, allowing users to easily navigate through the different sections of the Unique Dining site. Styled with Bootstrap’s navbar-dark and bg-dark classes, it features a dark background with light text for strong contrast and readability.
+- The navbar prominently displays the site title, “Unique Dining,” as a clickable brand link on the left side.
+- It is mobile-friendly, using the Bootstrap navbar-toggler button to collapse and expand the menu on smaller screens.
 
-![Nav Bar](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/navbar.png)
+![Nav Bar]()
 
-- Hover-over feature, which turns the menu option the same as the active page when users hover their cursor over the navbar heading.
+**_Navigation Links:_**
+
+Links to main pages like Home, Menu, and About Us.
+
+Conditional rendering based on user authentication:
+
+For logged-in users:
+- Book a Table
+- View Bookings
+- My Profile
+- Logout
+
+For New Users:
+- Register
+- Login
+
+- The active page is visually highlighted to inform users of their current location on the site using Django template tags and conditional classes.
+- Navigation links are aligned to the right (ms-auto), enhancing layout and readability.
+- If fixed-top or sticky-top is added, the navbar can stay at the top of the page as users scroll.
 
 
-![Hover over highlight](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/HoveroverNavbar.png)
+![Hover over highlight]()
 
 ### Hero Image
 
@@ -166,6 +173,8 @@ The header element stays fixed at the top of the page when the user first scroll
 - All other pages are similar to gallery pages and have nav links.
 - And also a sign-up form also doesn’t have any logo image.
 - Hero image screenshot can be found in the Home page section further in the document.
+
+![Hero Image]()
 
 ### Footer
 
@@ -175,7 +184,7 @@ The header element stays fixed at the top of the page when the user first scroll
 - These icons were imported from font awesome using Javascript at the bottom of the page.
 - A statement stating that all photographs on the website are the property of Handmade Hobbies and that the site is only meant for educational reasons was included. I added this after chatting on Slack with the Code Institute for suggestions.
 
-![Footer](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/footer.png)
+![Footer]()
 
 ### Typography
 

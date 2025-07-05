@@ -21,6 +21,12 @@
   color: #FFEB99 !important;
 }
 
+.nav-link.active {
+  color: #ffc107;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 body {
   background-color: #f8f9fa; /* light grey */
   font-family: 'Roboto', sans-serif;
