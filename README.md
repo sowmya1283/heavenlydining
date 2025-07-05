@@ -25,10 +25,9 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [Wireframes](#wireframes)
   - [Colour Scheme](#colour-scheme)
   - [III. Current Features Common to all pages](#iii-current-features-common-to-all-pages)
-  - [Header Element](#header-element)
+   - [Navbar Description](#navbar-description)
     - [Navigation Bar](#navigation-bar)
     - [Navigation Links](#navigation-links)
-    - [Hero Image](#hero-image)
   - [Footer](#footer)
   - [Typography](#typography)
 
@@ -128,8 +127,8 @@ For the Unique Dining website, I opted for a stylish yet subtle color palette wi
 
 ### Navbar Description
 
-The header element stays fixed at the top of the page when the user first scrolls through (or scrolls up and down). A Code Institute alumnus pointed out that the sticky header will improve user experience and adhere to prevailing trends. The header itself contains the below elements.
-
+The navigation bar serves as a consistent and accessible way for users to explore the Unique Dining website. Positioned at the top of every page, the navbar remains visible and responsive across all devices.
+The navbar is implemented using Bootstrap’s navbar component for built-in responsiveness and styling.
 
 **_Navigation Bar:_**
 
