@@ -13,7 +13,7 @@ We don’t just serve food — we craft atmospheres. Our menus evolve with the s
 Discover something extraordinary. Step into a dining adventure that awakens your palate and stirs your imagination.
 
 
-![Hero image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/homepageinalldevices.png)
+![Hero image](https://github.com/sowmya1283/heavenlydining/blob/main/Static/images/hero/hero2.jpg)
 
 ## Table of contents:
 
