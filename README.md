@@ -52,19 +52,25 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 
 ### Target Audiences:
 
-- Users who share the passion for handmade items.
-- Users with a general interest in crochet, mosaic art and quilling art.
-- Users who want to order or buy products mentioned on the website.
-- Users who have seen the products and would like to learn how to make them.
+- Local Food Enthusiasts: Irish locals who enjoy trying unique, high-quality food experiences.
+- Tourists Visiting Ireland: International visitors seeking authentic Irish experiences.
+- Couples & Special Occasion Diners:  People celebrating anniversaries, engagements, or birthdays.
+- Young Professionals & Foodies: Millennials and Gen Z in urban areas with disposable income.
+- Corporate & Group Diners: Teams or companies looking for team meals, networking events, or client dining.
 
 ### User Stories:
 
-- As a hobbyist, I want to see the contents of the webpage to get inspiration.
-- As a hobbyist, I want to know what are the benefits of handmade hobbies.
-- As a hobbyist, I want to easily navigate through the website to see what craft categories are available.
-- As a user, I want to view photos in different craft categories.
-- As a user, I want to submit form for signing up.
-- As a user, I want to meet up people with similar interest
+- As a new user, I want to create an account so I can book a table and manage my reservations.
+- As a returning user, I want to log in securely. so I can access my personal booking dashboard.
+- As a logged-in user, I want to book a table by selecting the date, time, and number of guests so I can plan my dining experience in advance.
+- As a logged-in user, I want to view my upcoming reservations so I can remember my dining plans.
+- As a logged-in user, I want to cancel or modify my reservation so I can change my plans without needing to call.
+- As a guest (unauthorized user), I want to be redirected to log in or sign up when I try to book a table so I understand that booking is only available to registered users.
+- As a logged-in user, I want to receive a confirmation email after booking so I have a record of my reservation details.
+- As a logged-in user, I want to be notified if my preferred time slot is unavailable so I can choose another suitable time.
+- As a logged-in user, I want to view my past reservations so I can keep track of my dining history or repeat a past experience.
+- As a logged-in user, I want the booking form to be mobile-friendly so I can make reservations easily from my phone.
+
 
 ### Site Aims:
 
