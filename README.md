@@ -91,35 +91,26 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 
 Wireframes were added to this project to keep my thoughts structured and to avoid any discrepancies from the actual website design. Links to the five targeted pages on desktop and mobile platforms are provided below.
 
-**_Mobile Wireframes:_**
-
-[Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Welcomepage_Mobile.png)
-
-[Crazy For Crochet Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochetgallerypage_Mobile.png)
-
-[Mosaic Art Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Mosaic_art_gallery_mobile.png)
-
-[Quilling Craft Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QuillingGallery_Mobile.png)
-
-[Sign-Up Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/SignupMobile.png)
 
 **_Desktop wireframes:_**
 
 [Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/WelcomePagedesktop.png)
 
-[Crazy For Crochet Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochet%20Page_desktop.png)
+[Menu Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochet%20Page_desktop.png)
 
-[Mosaic Art Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Maosaic%20Art%20Page_desktop.png)
+[Signin Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Maosaic%20Art%20Page_desktop.png)
 
-[Quilling Craft Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QullingArt_page_desktop.png)
+[SignupPage](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QullingArt_page_desktop.png)
 
-[Sign-Up Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+[Book Table Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
 
-In order to improve the user experience, wireframes were modified a changed a bit. Please find the below changes.
+[View Bookings Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
 
-Though some texts were added to the Crazy For Crochet, Mosaic Art and Quilling Craft pages initially, they have been removed and might be added in upcoming deployments.
-Initial ‘Header’ had the same design across all the pages. Later only logo has been added in the home page and rest of the pages have same title.
-Header section of the welcome page has new logo. (Old logo has been replaced)
+[Logout Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+
+[About Us Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+
+[User Profile Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
 
 ### Colour Scheme:
 
