@@ -21,7 +21,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [Target Audiences](#target-audiences)
   - [User Stories](#user-stories)
   - [Site Aims](#site-aims)
-  - [How Is This Will Be Achieved](#how-is-this-will-be-achieved)
+  - [How This Will Be Achieved](#how-this-will-be-achieved)
   - [Wireframes](#wireframes)
   - [Colour Scheme](#colour-scheme)
 ## III. Current Features Common to all pages
