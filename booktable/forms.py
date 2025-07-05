@@ -40,13 +40,13 @@ class BookTableForm(forms.ModelForm):
     def clean_booking_time(self):
         time = self.cleaned_data.get('booking_time')
         if time and (time.hour < 10 or time.hour > 22):
-            raise forms.ValidationError("Booking time must be between 10:00 and 22:00.")
+            raise forms.ValidationError("Booking time must be between 10:00 & 22:00.")
         return time
     
     def clean_table_size(self):
         size = self.cleaned_data.get('table_size')
+        if size is None:
+            raise forms.ValidationError("Table size is required.")
         if size and (size < 1 or size > 20):
             raise forms.ValidationError("Table size must be a positive integer between 1 and 20.")
         return size
-    
-  
