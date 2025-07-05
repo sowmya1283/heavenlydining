@@ -1,528 +1,336 @@
-# UniqueDining
-
-Sci-Fi Portal
-Site Overview
-As a keen fan of the Science Fiction genre, I have often found it difficult to keep track of the growing number of books I have read. I have also struggled to find the passion and love for sci-fi from others within my own social or professional circles.
-
-The Sci-Fi Portal is designed with the aim of creating a platform for an online community of like-minded fans who wish to share their own experiences of sci-fi novels, short stories or animé. Users can create, read, update and delete book reviews which can be viewed by themselves as well as other registered users. The community experience is enhanced by the ability to comment on reviews, thus generating discussion and fulfilling one of the aims of providing a forum to interact and engage with other fans of the genre.
-
-Am I Responsive Screenshot
-
-Click here to view the final deployment of the site.
-
-Table of contents:
-Site Overview
-Planning stage
-Strategy
-Site Aims
-Target Audiences
-User Stories
-Wireframes
-Database Schema
-Colour Scheme
-Typography
-Agile Development
-Features
-Admin Page
-Navbar
-Social Media and Email Links
-Home Page
-Books Page
-Book Detail Page
-Add Book Page
-Edit Book Page
-Delete Book Page
-Authors Page
-Author Detail Page
-About Page
-Profile Page
-Account Pages
-Sign Up
-Log In
-Log Out
-Messages
-Defensive Design
-User Authentication
-404 Page
-Future-Enhancements
-Testing Phase
-Deployment
-Software and Tech
-Media
-Credits
-Honourable mentions
-Planning Stage
-Site Aims:
-Develop a colourful, interactive online platform for fans of Science Fiction literature to come together as a community.
-To provide users with a platform to keep track of their own reading within the genre.
-Deliver an accessible and easy to navigate site for users on desktop and mobile devices.
-Provide registered users with the opportunity share their own sci-fi experiences and to Create, Read, Update or Delete book reviews on the site.
-Provide users with an opportunity to gain future reading inspiration by browsing the book reviews and featured authors.
-Offer users the opportunity to interact and engage with others by liking and commenting on reviews by other users.
-Ensure provision of safe content as reviews and comments must be approved by the admin.
-Enhance the user experience by implementing an integrated search function for those trying to find a specific book or author.
-Offer users the opportunity to provide more information about themselves by adding to their user profile.
-Deliver to the user a comprehensive explanation and rationale behind the site through a clear and concise About page.
-Target Audiences:
-People who are fans of Science Fiction books.
-People who are fans of the genre in general.
-People looking to share their own reading experiences from within the genre.
-People looking for an online book-club which is easy to sign up to and easy to navigate.
-People who would like to comment on other reviews in order to discuss these books.
-People seeking future reading inspiration.
-People who are new to the genre and would like to engage with the community.
-User Stories:
-Site User
-As a Registered user I can:
-
-create draft book posts in order for admin to approve and post them after reviewing.
-view a list of book posts in order to select one to read.
-click on a book post in order to view its content.
-create a book post in order to share my review with the community.
-comment on other users' book posts in order to share my opinions and interact with the community.
-upload a profile picture or bio in order to tell a little more about myself.
-edit or update my profile in order to keep my account up to date.
-like or unlike a book review in order to interact with the site content.
-easily login in order to access my account.
-easily logout in order to end my session on the site.
-edit or delete my own book post in order to keep my own contributions relevant.
-As an Unregistered User I can:
-
-easily determine the purpose of the site in order to see if I want to register and join.
-easily register in order to start interacting with the content and community.
-Site Admin
-As a Site Admin I can:
-
-approve user book reviews in order to publish them to the site.
-approve user book reviews in order to check that their content is appropriate.
-approve user comments in order to filter out objectionable content.
-view the number of likes on a book review in order to see which is the most popular.
-delete user accounts in order to remove users who do not respect others in the community.
-add to the featured authors section in order to keep site content fresh and relevant.
-Wireframes
-I used Figma to help guide my design process for this project. I wanted to use a programme which would help me visualise the pages a little clearer than Balsamiq Wireframes, which I have used in the past. As images and colours are a key part of this site's look and feel, I wanted to feel happy they worked in planning before committing.
 
-Homepage
-About Page
-Books Page
-Authors Page
-Book / Author Detail Page
-User Account Page
-Submit Review Page
-Edit Review Page
-Delete Review Page
-Search Results Page
-The final site adheres fairly closely to the initial images. I dropped the fixed-bottom footer as it interfered with site content on some devices. I moved the social media and email links to the right side of the navbar where they worked better anyway.
 
-Database Schema
-I used DrawSQL​ to help visualise my database tables. See the image below:
+# Unique Dining
 
-Database Schema
+## I. Site Overview
 
-Unfortunately, the site did not provide adequate field type values but it was instrumental in helping create the Entity Relationship Diagram.
+A website where dining is more than just a meal — it’s an experience. Our unique dining concept blends culinary artistry with immersive storytelling, creating unforgettable moments that engage all your senses.
 
-The exact models used in the project can be viewed here.
+Whether you’re joining us for a candlelit forest-inspired supper, a secret rooftop tasting, or a multi-course journey through global flavors, every dish is thoughtfully designed to tell a story. From the ambiance to the aroma, every detail is curated to surprise, delight, and transport you.
 
-Colour Scheme:
-​After researching various options for this project, I opted for the colour scheme below:
+We don’t just serve food — we craft atmospheres. Our menus evolve with the seasons and inspirations, offering limited-seat experiences that focus on intimacy, creativity, and connection. Whether you’re a curious foodie, a romantic explorer, or someone seeking a new way to connect over cuisine, this is your invitation to dine differently.
 
-Colour Palette
+Discover something extraordinary. Step into a dining adventure that awakens your palate and stirs your imagination.
 
-The contrast scores for all the colours used across the project can be seen below. I used contrast-grid to generate this chart.
 
-Colour Palette Contrast Scores
 
-​
-Typography
-​I researched a number of fonts that would be in keeping with the sci-fi theme of the site. I used Font Pair to try a number of options and eventually chose the following:
+![Hero image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/homepageinalldevices.png)
 
-Space Mono Chosen for its sci-fi-esque appearance.
+## Table of contents:
 
-Roboto Chosen for its softer edges to counter the harsher appearance of Space Mono.
+## I. Site Overview
+## II. Planning stage
+ ### - Target Audiences
+ ### - User Stories
+ ### - Site Aims
+ ### - How Is This Will Be Achieved:
+ ### - Wireframes
+ ### - Colour Scheme
+## III. Current Features Common to all pages
+### - Header Element:
+   ####   **_Title_**
+   ####   **_Logo_**
+   ####   **_Navigation Bar_**
+   ####   **_Hero Image_**
+### - Footer
+### - Typography  
+## IV. Individual Page Content features
+### - Home Page or Welcome Home Page
+### - Crazy for Crochet Content Page
+### - Mosaic Art Content Page
+### - Quilling Craft Content Page
+### - Sign Up Page
+## V. Future-Enhancements
+## VI. Testing Phase
+## VII. Deployment
+## VIII. Credits
+### - Honourable mentions
+### - General reference
+### - Content
+### - Media
 
-The two are used evenly throughout the site.
 
-​
+## II. Planning stage
 
-Agile Development
-I used Github projects to create and track issues and User Stories. The Agile processes and methodologies can be viewed here
+### Target Audiences:
 
+- Users who share the passion for handmade items.
+- Users with a general interest in crochet, mosaic art and quilling art.
+- Users who want to order or buy products mentioned on the website.
+- Users who have seen the products and would like to learn how to make them.
 
+### User Stories:
 
-Features
-Site Navigation
-Admin Page
-The Admin page was setup almost immediately. This was crucial as it provided the initial means of adding test data and users to the project.
+- As a hobbyist, I want to see the contents of the webpage to get inspiration.
+- As a hobbyist, I want to know what are the benefits of handmade hobbies.
+- As a hobbyist, I want to easily navigate through the website to see what craft categories are available.
+- As a user, I want to view photos in different craft categories.
+- As a user, I want to submit form for signing up.
+- As a user, I want to meet up people with similar interest
 
-Screenshot of admin page
+### Site Aims:
 
-Navbar
-​The Navbar is a bootstrap component which allows a registered User to navigate their way around the site with ease. When logged out, it displays just the SF|Portal logo and social media / email links:
+- To inspire hobby enthusiasts.
+- To educate the user regarding benefits of handmade hobbies.
+- To offer the user a chance to connect to the community with similar interest in person.
+- To offer the user a way to contact the site author for further info or discussion.
+- To offer the user a platform for meetup events.
 
-Screenshot of navbar
+### How This Will Be Achieved:
 
-When the User is logged in, it offers navigation to the profile, books, authors and about pages:
+- The home page provides the user with a summary of the handcrafted items.
+- The information like what and why regarding handmade hobbies.
+- The information related to benefits of handmade crafts.
+Gallery of the different handmade items to attract the users.
+- The site will provide information on the meetups available to engage with the community.
+- The option for users to connect with the author via sign up link.
 
-Screenshot of navbar
+### Wireframes:
 
-To display properly on smaller screens, I used a Bootstrap hamburger menu:
+Wireframes were added to this project to keep my thoughts structured and to avoid any discrepancies from the actual website design. Links to the five targeted pages on desktop and mobile platforms are provided below.
 
-Screenshot of small-screen navbar Screenshot of small-screen navbar menu
+**_Mobile Wireframes:_**
 
-Social Media and Email Links
-The social media and email icons are situated on the right of the Navbar. The Social Media links are functional and will open in a new tab. NOTE: There is no actual Social Media Content for this site at the time of writing.
+[Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Welcomepage_Mobile.png)
 
-The email icon opens the default email application with the recipient being a test email address for the site.
+[Crazy For Crochet Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochetgallerypage_Mobile.png)
 
-Screenshot of social media and email links
+[Mosaic Art Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Mosaic_art_gallery_mobile.png)
 
-Home Page
-The Home Page uses a background chosen to evoke sci-fi imagery and features a human figure standing in front of a Portal, thus linking neatly with the name of the site. It features some simple text outlining the purpose of the site as well as a search bar, which logged-in Users can use to search for content:
+[Quilling Craft Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QuillingGallery_Mobile.png)
 
-Screenshot of home page
+[Sign-Up Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/SignupMobile.png)
 
-The Home Page is responsive and works well on smaller devices. This is how it looks on an iPhone SE:
+**_Desktop wireframes:_**
 
-Screenshot of small-screen home page
+[Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/WelcomePagedesktop.png)
 
-Users can search for books using the search function:
+[Crazy For Crochet Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochet%20Page_desktop.png)
 
-Screenshot of home page search
+[Mosaic Art Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Maosaic%20Art%20Page_desktop.png)
 
-Books Page
-The Books Page features a background image of stars which complements the overall colour palette of the site. It consists of a 'Submit Review' button and a paginated list of book reviews made by other Users or Admin. Each review is a Bootstrap card displaying the title, author and an image of the book. If no image is uploaded by the User, it is assigned a default image showing 'Image not available'. This can always be assigned by Admin or the User at a later time. The card also displays a snippet of the synopsis, a User rating, who posted the review the number of likes and comments.
+[Quilling Craft Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QullingArt_page_desktop.png)
 
-There are a maximum of six reviews per screen, the User can click 'next' or 'previous' to navigate between the reviews:
+[Sign-Up Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
 
-Screenshot of book page Screenshot of book page
+In order to improve the user experience, wireframes were modified a changed a bit. Please find the below changes.
 
-The Books page is responsive on smaller screens and the reviews will stack so they can be scrolled. The following screenshot is from an iPhone SE:
+Though some texts were added to the Crazy For Crochet, Mosaic Art and Quilling Craft pages initially, they have been removed and might be added in upcoming deployments.
+Initial ‘Header’ had the same design across all the pages. Later only logo has been added in the home page and rest of the pages have same title.
+Header section of the welcome page has new logo. (Old logo has been replaced)
 
-Screenshot of small-screen book page
+### Colour Scheme:
 
-Assuming the User is logged in, they are able to edit or delete reviews they have posted directly from the Books Page:
+When making my selection, I wanted to go with a color palette that was stylish. For this reason, I went with a light blue navigation bar and accent colors of dim light orange and grey. To gauge the contrast scores, I developed a colour grid using the colour https://contrast-grid.eightshapes.com/ . I was able to guarantee that all text stayed visible and that everyone could visit the website by using this grid.
 
-Screenshot of edit and delete book page
 
-The User can click on any of the book titles or images to go to the Book Detail page and read that particular review.
+![Color grid used](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/%20colorgrid.png)
 
-Book Detail Page
-Upon clicking on a review in the Books Page, the User is taken to the Book Detail page:
+## III. Current Features Common to all pages
 
-Screenshot of book detail page Screenshot of book detail page
+### Header Element
 
-This displays a larger image of the book - if uploaded, the book title, author, review rating and synopsis. The User review is situated below and there is also the opportunity for a User to edit or delete their own reviews. Users can also like or unlike reviews as well as see the number of both:
+The header element stays fixed at the top of the page when the user first scrolls through (or scrolls up and down). A Code Institute alumnus pointed out that the sticky header will improve user experience and adhere to prevailing trends. The header itself contains the below elements.
 
-Screenshot of book detail edit/delete/likes/comments page
+**_Title:_**
 
-Likes
+![Title Screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/title.png)
 
-The like button has two states: a Font Awesome heart outline if the user has not liked the review:
-Screenshot of unliked
+- The title serves to state the name of the Website.
+- The title is present in Crazy For Crochet, Mosaic Art, Quilling Craft and Sign Up pages.
+- The title is not present in the ‘Welcome Home’ Page. Logo with the text same as Handmade Hobbies is presented to the user to appease.
+- Title in all other pages also serves as a navigation link to the home page “Welcome Home!” as per the well-established convention expected by the user.
 
-or a solid heart if the user has liked it:
+**_Logo:_**
 
-Screenshot of liked
+- The logos are created to the captivate user’s attention and to portray the website intentions. Colourful ai generated image of heart is presented in ‘Welcome Home!’ page. (The other pages have Title with the same text as mentioned in the logo of the home page.)
 
-The User can like or unlike a review.
+- Logo on mobile devices ensured the title stays as big as possible on a smaller screen, improving the user experience.
 
-Add Book Page
-If a User clicks 'Submit a Review' they are taken to the Add Book Page:
+![logo](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/logo.png)
 
-Screenshot of Add Book Page 1 Screenshot of Add Book Page 2
+**_Navigation Bar:_**
 
-The User must provide information for all fields in the form other than providing an image, rating and sub-genre. There are default values for the latter three but the User can still alter them.
+- The navigation bar appears on all five pages (including the form Sign Up page) with a white background.
+- It contains links to the Welcome Home!, Crazy For Crochet, Mosaic Art , Quilling Craft and Sign Up page to allow easy navigation around the website.
+- The below image shows the user’s current page.
 
-Any mandatory form fields that are left blank will result in the following prompt:
+![Nav Bar](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/navbar.png)
 
-Screenshot of Add Book Form errors
+- Hover-over feature, which turns the menu option the same as the active page when users hover their cursor over the navbar heading.
 
-Upon successful submission of the form, the User is redirected to the Books Page and a message is displayed.
 
-Comments
+![Hover over highlight](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/HoveroverNavbar.png)
 
-Comments can be viewed below the reviews. This displays the User posting the comment, the date and time as well as the comment itself:
+### Hero Image
 
-Screenshot of book detail page comments
+- I have included a hero image in the ‘Welcome Home!’ page only.
+- All other pages are similar to gallery pages and have nav links.
+- And also a sign-up form also doesn’t have any logo image.
+- Hero image screenshot can be found in the Home page section further in the document.
 
-NOTE All comments must be approved by the Admin in order to filter out objectionable content.
+### Footer
 
-In order to post a comment, the User must complete the comment form at the bottom of the page:
+- The footer includes direct links to all the social media platform with the little icons
+- Initially social media platforms were having the placeholder texts then later replaced with icons. These icons are very small and take-up very little space.
+- Still Handmade Hobbies accounts on all those Social Media platform is pending to be developed in the upcoming phases. These links then will updated to connect to the respective pages.
+- These icons were imported from font awesome using Javascript at the bottom of the page.
+- A statement stating that all photographs on the website are the property of Handmade Hobbies and that the site is only meant for educational reasons was included. I added this after chatting on Slack with the Code Institute for suggestions.
 
-Screenshot of book detail page comment form
+![Footer](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/footer.png)
 
-Upon submission of the form, they are presented with the following message:
+### Typography
 
-Screenshot of book detail page comment submission
+Throughout the page, there are three fonts used:
 
-When the comment has been approved by the Admin, they will appear with the other comments in the order they were posted.
+- Merienda- as the website intended to be creative. It has a font-family of Dancing style making the heading attractive.
+- Default fall back font-family has been given as sans-serif.
+- For all other headings including the navbar default font is used.
+- All fonts were sourced from Google fonts, as stated in the credits.
 
-Edit Book Page
-If the User clicks edit on the Books or Book Detail page then they are directed to the edit book page:
+## IV. Individual Page Content features
 
-Screenshot of edit book Screenshot of edit book
+### Home Page Or ‘Welcome Home!’ Page:
 
-A User is only allowed to edit or delete an admin-approved review that they have posted. If these conditions are met, the edit book page will display a form pre-populated with the existing data from the initial review. This can be edited or updated. The primary reasons for doing so would be to edit typos pr perhaps add an image they couldn't find before.
+**_Hero-Image:_**
 
-Upon submission of the form, the User will be redirected to the Books page and shown a success message:
+Very striking and colourful hero image for a website that displays a range of artistic crafts. A variety of colourful supplies and equipment, including yarn, coloured pencils, beads, fabric and paintbrushes are used in the scenario. There’s a hand-drawn sign in the foreground that says “Handmaade Hobbies.” As you can see, the image has two ‘AA’’s in the ‘HANDMAADE’ just to be more creative.
+The background image is configured to cover with the position centre, thus the image appears fantastic on all screen resolution.
 
-Screenshot of successful edit book
 
-Responsiveness
-The edit-book page is responsive and scales well on smaller devices. The screenshots below show how it renders on an iPhone SE:
+![Hero Image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/hero.png)
 
-Screenshot of edit book small screen Screenshot of edit book small screen
 
-Delete Book Page
-If the user chooses to delete one of their book reviews, they are directed to the following page:
+Inside the hero image, an overlay with the craft categories are listed in this web site. This is added because to create an customer attention or to make a positive impact to a new visitor on the website. This text is made readable with a transparent background making it easier to notice. The position of this overlay is made absolute so that it can be placed on top of the Hero image.
 
-Screenshot of delete book
+**_What? , Why? and Benefits! Section:_**
 
-There are only two options: the User can click cancel and return to the previous page, or confirm delete of the review and are redirected to the books page where a message displays that the message has been successfully deleted.
+The main purpose of the website is to inspire, convey information or benefits of handmade craft items , connect with like-minded hobbyists , to reach out to the author for any collaborative work and etc. Therefore the section below the hero image is divided into three parts with detail information about ‘What is’ handmade hobbies is all about? ‘Why’ Handmade hobbies? and ‘Benefits’ of Handmade hobbies for any individual.
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+As you can see the images below, they are having a title information as mentioned above.
 
-Screenshot of edit book page small screen
+![What are handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/what.png)
 
-Authors Page
-If the User navigates to the Authors Page they can view a list of the Featured Authors:
+![Why handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/why.png)
 
-Screenshot of authors page 1 Screenshot of authors page 2
+![Benefits of handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/benefits.png)
 
-This is an ever-growing list which will be to added by the admin over time. The layout is similar to the books page, with a paginated list of authors displayed. Each card displays the name, date of birth, famous works and a snippet of the author's bio. If no image is available, there is a default image displayed. In this instance, it is just for test purposes that there is no image of Isaac Asimov, as there were many available. This feature is reserved for more obscure or emerging artists for whom there might not be an image. The User can click on the image, author name or 'view full bio' link to navigate to the Author Detail Page.
+The above section is also made responsive based on the Mobile, Tablet and Laptop version. Enough padding is added to make the content displayed neatly within the div for larger screens. Whereas padding has been reduced to make sure that this content is more readable on mobile devices.
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+**_Circular image:_**
 
-Screenshot of authors page small screen
+Circular image has been added to match the handmade hobbies content which is mentioned above and is responsive according to the screen resolution.
 
-Author Detail Page
-The aim of this page is to introduce the User to new authors who might appeal to fans of the genre. These will include established authors and luminaries of the science fiction field or perhaps newer, emerging writers. For the purpose of consistency Author Detail Page is similar to the Book Detail Page. The same background image fits the sci-fi theme and the layout of the page features a large image of the author, their name, date of birth, famous works and a bio:
+The circular image conveys the message that what users will be doing when they see handmade hobbies. The image has seven sections where people are involved in crochet, knitting, moulding clay, painting etc.
 
-Screenshot of author detail page 1 Screenshot of author detail page 2
+![Added circular screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/circularimage.png)
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+**_Meetup Times:_**
 
-Screenshot of author detail page small screen
+The last section of our welcome home page is our ‘Meetup times’ section. A website’s “Meetup” section can greatly increase consumer interaction, offer social and educational benefits, and also will help to create a solid, dedicated client base. It may provide lively and engaging environment for their clients by providing a range of activities and making sure that communication is simple.
 
-About Page
-The About page displays information about the site. The text welcomes the User to the site and explains what they can do as a registered User. There are links to different areas of the site and a reminder to respect other Users in the community:
+This section provides visitors about all the necessary information about our timings of meetup events happening over the complete week. Based on the information provided on the website user can decide which meetup session they want to join.
+this meetup events tell information like time, day of the meetup and what will be the agenda of the meetup.
 
-Screenshot of about page 
+![Meetup time screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/meetup_times.png)
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+## All the other page contents(Similar to Gallery)
 
-Screenshot of about page small screen
+All the pages apart from welcome home page in the website are similar like ‘Gallery’ pages. They have different images files loaded and are responsive to the screen sizes. On mobile screens, these images are loaded in single column. As the screen size increases the column are spread-out. To help the visually impaired users on the scenario of failed image loading, an alt text has been added to each image. In-case of image loading fails, the alt text displays. Columns will increase according to the screen size. (eg., for mobile single column, for tablet 3 columns and laptops four columns)
 
-Profile Page
-When the User registers a new account, a profile is automatically created for them to edit in their own time. The purpose of this is so that the User can register and immediately start using the site rather than have to waste time completing a profile they may not wish to use. If the User wishes to, they can click on the Profile icon in the Navbar to view their Profile card:
+### Crazy For Crochet Page:
 
-Screenshot of Profile page
+- A wide range of creative possibilities are offered by Crochet. Some examples are clothing, baby items, home decor items, accessories, seasonal items etc.
+- This crochet gallery page has some beautiful images to inspire the hobbyists.
+- The gallery page has only image content, no text content has been added to this.
 
-If the User clicks the 'Edit Profile' button, it will reveal a form which the User can use to update their details:
+![Crazy for crochet gallery page ](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/Crazyforcrochetpage.png)
 
-Screenshot of Profile page edit form
+### Mosaic Art Page:
 
-Upon clicking the 'Update' button, the form is submitted and the page reloads with the new details and a success message:
+- Mosaic art is a form of decorative art mainly from different cultural background like Greece, Roman and Islamic traditions. Created using small piece of materials such as stone, glass pieces, ceramic or tiles etc.
+- This Mosaic gallery page has some beautiful images to inspire the hobbyists.
+- The gallery page has only image content, no text content has been added to this.
 
-Screenshot of profile page success
+![Mosaic art page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/MosaicArtPage.png)
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+### Quilling Craft Page:
 
-Screenshot of profile page card small screen Screenshot of profile page form small screen
+- Quilling is a form of paper art which is made using strips of paper. These stripes are rolled, glued to create different shapes.
+- The Quilling Craft gallery page has some beautiful images to inspire the hobbyists.
+- The gallery page has only image content, no text content has been added to this.
 
-Allauth Account Pages
-All Account Pages use the same background, again evoking sci-fi imagery. The image is a swirling, nebulous portal which again complements the colour palette used site-wide.
+![Quilling craft page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/QuillingCraft.png)
 
-Sign Up
-I used allauth to handle the account pages for the project. In order to register, the User must complete the form on the Signup Page:
+### Sign Up page content
 
-Screenshot of signup page
+- The purpose of this page is to simulate the process of submitting a form.
+- A background image with light golden colour which is in contrast for the form colour.
+- A hand holding heart font has been added before the ‘Let’s get you signed up!’ text. This icon is from font-awesome.
+Adjusted the image and the form properly by using margin-top. The large gap between the nav and the form were reduced using this property.
+- All the radio buttons were not aligned properly at the initial stage and they have been made to spread-out with justify content property.
 
-Once the User has successfully registered, they will be logged in and taken to the Home Page. The form will display error messages in several circumstances:
+![Sign up page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/Signuppage.png)
 
-The User chooses a Username that is already taken
-The password is not long enough
-The password is too similar to the username or too common
-The passwords do not match
-See the example below:
+## V. Future-Enhancements
 
-Screenshot of signup page errors
+- The future intention of the site would be to serve as a website specifically to grow visitors and involve more hobbyists to sign up to the website. To add more content related to new designs, tutorials, different type of materials used. If possible enhance the website to create a buy and sell platform at later stages.
+- At first, the purpose would remain to inspire people and spread awareness about benefits of hand-crafted items. However, There would be additional content as mentioned above.
+- Video tutorials of all the handmade craft items.
+- How to choose materials to use for different kind of handmade craft items.
+- Handmade hobbies account creation on different social media platforms and linking them to the website.
+- Bringing users designs on the webpage.
+- Improvising the media content format on the different gallery pages.
+- I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+## VI. Testing Phase
 
-Screenshot of signup small screen
+I have a second document named [TESTING_PHASE.md](https://github.com/sowmya1283/handmadehobbies/blob/main/TESTING_PHASE.md) that contains information about testing both during and after development.
 
-Log In
-Existing Users can log in by clicking the Log In button on the Home Page. This will bring them to the Log In Page:
+## VII. Deployment
 
-Screenshot of log in page
+I deployed the page on GitHub pages via the following procedure: -
 
-If the log in details are not valid, an error message is displayed. For example:
+- From the project’s repository, go to the Settings tab.
+- From the left-hand menu, select the Pages tab.
+- Under the Source section, select the Main branch from the drop-down menu and click Save.
+- A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+- You can find the live site via the following URL- https://sowmya1283.github.io/handmadehobbies/
 
-Screenshot of log in page errors
+## VIII. Credits
 
-Responsiveness
-Here is how the page displays on an iPhone SE:
+### Honourable mentions:
 
-Screenshot of login small screen Screenshot of login error small screen
+This project could not have happened without the support of the following people listed in no particular order:
 
-Log Out
-To log out of the site and end the current session, the User can navigate to Log Out in the Navbar. This will direct them to the Log Out Page:
+- [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
+- Lewis Dillon: From Code institute For the longest and most comprehensive peer review that I received via our stand-up calls. His feedback was truly amazing
+- Tulio Minini: One of my friend from code institute has been helping me in reviewing the website and provided some great comments.
+- The code institute Slack community as a whole who tested and supported throughout.
+- And the biggest thanks goes to my daughter and my mother who inspires me and encourages me to keep learning.
+- Code institute tutor support are awesome, they always help in fixing any workspace issues or launching website issues has been very helpful or even tutoring was very helpful.
 
-Screenshot of logout page
+### General reference:
 
-The User can confirm by clicking the Log Out button or click the cancel button to return to the previous page. If the User chooses to log out, they are redirected to the Home Page and a success message informs them they have been logged out:
+- The Code Institute’s “Love Running” code-along initiative had an impact on the project. Even though I made every effort to diverge, there might still be some code similarities.
+- Throughout the project, I used stack overflow, google, and W3schools as general references.
 
-Screenshot of home screen logout success
+### Content:
 
-Responsiveness
-Here is how the pages display on an iPhone SE:
+- All content was written by myself except some used from chatGPT: https://chatgpt.com/
+- Some of the handcraft text contents were inspired by wikipedia: https://www.wikipedia.org/
+- Icons in the footer were taken from Font Awesome: https://fontawesome.com/
+- Header, text content fonts imported from Google Fonts: https://fonts.google.com/
 
-Screenshot of logout small screen Screenshot of logout success small screen
+### Media:
 
-Links and Buttons
-Links
-I used two different effects for the links in the project. One is a custom CSS effect where a white box-shadow slides from left to right across the link. The feature can be seen on the site
-
-The second effect present is another custom CSS effect which changes the text-colour when it is hovered over. Generally there is no text decoration for the links as I felt the underline did not work well with either font.
-
-Buttons
-I used Bootstrap buttons across the project. The button colours follow the colour scheme of the site, other than the 'edit' and 'delete' book buttons which use the default Bootstrap primary and danger colours in order to stand out.
-
-Messages
-User feedback is provided in the shape of success messages with the aim of providing a more involved User Experience. These messages are dismissible by clicking the 'x' and will be displayed in the following situations:
-
-Successful Login
-
-Successful login message
-
-Successful Update Profile
-
-Successful update profile
-
-Successful Add Book Review
-
-Successful add book message
-
-Successful Edit Book Review
-
-Successful edit review message
-
-Successful Delete Book Review
-
-Successful login message
-
-Successful Comment Submission
-
-Successful Comment Submission message
-
-Successful Logout
-
-Successful logout message
-
-Defensive Design
-In order to avoid the User unintentionally deleting their own content, some simple defensive design programming was implemented. If a User is logged in and clicks delete on one of their reviews, they will be prompted for confirmation they want to do so here:
-
-Screenshot of delete page
-
-User Authentication
-All pages feature User Authentication meaning that a User must be logged in to view all site content. This encourages Users to signup as well as preventing malicious attempts to edit or delete content. If a user knows or guesses a correct URL without being logged in they will encounter this screen:
-
-Screenshot of authentication
-
-404 Page
-A custom 404 page was added to catch instances when the User may have mis-typed a URL, or if content has been removed from the site. The 404 page features text displaying the content is not available and features a back button:
-
-Screenshot of 404 page
-
-500 Page
-A custom 500 page was added to catch instances when a potentially malicious User might try to subvert the site, for example to access personal data or delete content. In this case the page below displays and features a back button to redirect them to the previous page:
-
-Screenshot of 500 page
-
-Future-Enhancements
-​There are a number of areas with scope for future improvement. This project has been very challenging and ultimately the project deadline was looming. There is potential to add the following:​
-
-Adding movies and games to fit into a 'Categories' drop-down menu.
-The option for Users to add to the Authors section.
-User images to be added to comments and book reviews.
-A community page for User who opt in to have their profiles displayed publicly.
-The search function to be updated to display results in the new categories.
-Using the Google Books API to retrieve book information. I did explore this option before the inception of the project but decided against including it due to time constraints.
-User Authentication
-All pages feature User Authentication meaning that a User must be logged in to view all site content. This encourages Users to signup as well as preventing malicious attempts to edit or delete content. If a user knows or guesses a correct URL without being logged in they will encounter this screen:
-
-Screenshot of authentication
-
-Testing Phase
-The testing process, along with bugs, can be viewed here​
-
-Deployment
-The Deployment was a fairly lengthy process so I have detailed it in a separate file. It can be found here
-
-The final deployment can be viewed here
-
-Software and Tech
-The following software and tech was used:
-
-BootStrap 5 to provide key components such as the navbar and cards.
-Cloudinary to handle static images and files as well as to offer the User a front end method of uploading images.
-CSS to provide custom styling in addition to Bootstrap.
-Django as a Python framework to develop the project.
-Django all auth used to handle user authentication.
-DrawSQL to develop the logic for the project.
-ElephantSQL to handle the PostgreSQL database.
-Figma to assist with the planning phase of the project.
-Font Awesome to provide search, heart, profile, social media icons etc.
-Git (Gitpod and Github) as my version control for the site.
-Gitpod and VS Code to create, load and push my code to Github.
-Heroku to deploy the project.
-HTML - The base language to create templates for the site
-JavaScript - only used twice: for the back or cancel buttons and to populate the hidden created_by field in the add_book form.
-Jinja used to implement logic from views.py and models.py.
-Microsoft Excel to develop the logic for the project.
-Optimizilla to compress background images for the site.
-Python - Installed packages can be found in the requirements.txt file.
-Shutterstock to source the background images for the site.
-Summernote to provide a WYSIWYG text editor in the admin area.
-Media
-All book images are from Amazon UK
-All background images came from a free trial subscription to Shutterstock
-All author images and bios are from Wikipedia other than:
-N.K. Jemisin: bio and image from author website
-Adrian Tchaikovsky: bio taken from author website​
-Credits
-The colour palette for the project is from Pinterest.
-
-The idea to use Cloudinary to handle static and media files came from the Code Institute walkthrough project: 'I Think, Therefore I Blog.
-
-The Django Documentation was immensely helpful in helping me gain a greater understanding of the project.
-
-The JavaScript code used to populate the hidden created-by field in the 'add book' form came from this series of videos by John Elder on YouTube.
-
-This Post from Shuaib Oseni was helpful when it came to creating the front end method to upload an image to CLoudinary.
-
-The idea to automatically create the User Profile came from this article on Google Groups.
-
-General References:
-
-Stack Overflow
-Code Institute LMS
-Bootstrap Documentation
-Jinja Documentation
-Cloudinary Documentation
-Geeks for Geeks
-W3C School
-Course material on the CodeCademy website which helped reinforce my understanding of Python.
-Honourable mentions
-The biggest thank you goes to my mentor, Richard Wells, who gave a significant amount of his time to provide me with help, feedback and ideas on the project; he has been invaluable in so many ways and a genuine source of motivation for me.
-Thanks to the Code Institute team for providing me with some basic knowledge of Python and Django.
-Thanks to the Code Institute who helped me overcome a major bug in the final deployment of the project
-Thanks to the Code Institute community on Slack who helped remind me that everyone has difficult days.
-A huge thank you to my family who support my coding journey on a daily basis.
+1. Handmade Hobbies logo is generated and modified from - https://ideogram.ai/ and Canva respectively.
+2. Some Quilling Craft gallery images are taken from - https://www.freepik.com/
+3. Some Quilling Craft gallery images are taken from - https://stock.adobe.com/
+4. Some Mosaic Art gallery images are taken from - https://stock.adobe.com/
+5. Some Crazy For Crochet gallery images are generated from - https://ideogram.ai/
+6. Some Crazy For Crochet gallery images are generated from - https://stock.adobe.com/
+7. Some Crazy For Crochet gallery images are generated from - https://www.freepik.com/
+8. Screenshot under README.md section titled “site overview” was created using - https://ui.dev/amiresponsive
+9. Some of the images are from google images - https://www.google.com/imghp?hl=en-GB&tab=ri&authuser=0&ogbl
+10. Some of the images are resized using - https://www.tinypng.com
