@@ -17,7 +17,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 ## Table of contents:
 
 ## I. Site Overview
-- [Site Overview](#Site Overview)
+- [I. Site Overview](#i-site-overview)
 ## II. Planning stage
  ### - Target Audiences
  ### - User Stories
