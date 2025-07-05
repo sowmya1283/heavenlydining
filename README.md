@@ -68,26 +68,26 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 - As a guest (unauthorized user), I want to be redirected to log in or sign up when I try to book a table so I understand that booking is only available to registered users.
 - As a logged-in user, I want to receive a confirmation email after booking so I have a record of my reservation details.
 - As a logged-in user, I want to be notified if my preferred time slot is unavailable so I can choose another suitable time.
-- As a logged-in user, I want to view my past reservations so I can keep track of my dining history or repeat a past experience.
-- As a logged-in user, I want the booking form to be mobile-friendly so I can make reservations easily from my phone.
+- As a logged-in user, I want to view my past reservations so I can keep track of my dining history.
 
 
 ### Site Aims:
 
-- To inspire hobby enthusiasts.
-- To educate the user regarding benefits of handmade hobbies.
-- To offer the user a chance to connect to the community with similar interest in person.
-- To offer the user a way to contact the site author for further info or discussion.
-- To offer the user a platform for meetup events.
+- To introduce and celebrate Irish cuisine through a thoughtfully crafted menu highlighting local ingredients and traditional recipes.
+- To provide easy access to information about the restaurant’s offerings, location, and ambiance.
+- To enable seamless table reservations for a smooth customer experience.
+- To create a strong brand identity that resonates with both Irish locals and international visitors.
+- To encourage visitors to choose Unique Dining as their go-to destination for special occasions, casual meals, or cultural food journeys in Ireland.
 
 ### How This Will Be Achieved:
 
-- The home page provides the user with a summary of the handcrafted items.
-- The information like what and why regarding handmade hobbies.
-- The information related to benefits of handmade crafts.
-Gallery of the different handmade items to attract the users.
-- The site will provide information on the meetups available to engage with the community.
-- The option for users to connect with the author via sign up link.
+- The homepage introduces users to the unique Irish dining experience offered.
+- It provides information on the restaurant’s philosophy and what makes its cuisine special.
+- The menu section displays traditional Irish dishes with descriptions and prices in euros.
+- Users are provided with Signup(New user) and Login(Registered user) page to create their booking.
+- The site includes an online table booking system accessible only to authorized users.
+- Users can view and manage their reservations through view booking page and different actions like edit, delete.
+- The contact page offers location details, opening hours, and easy ways to get in touch.
 
 ### Wireframes:
 
