@@ -399,5 +399,5 @@ This project could not have happened without the support of the following people
 
 ### Media:
 
-1. Only hero image is the media in the website and it is designed using Canva.
+1. Only hero image is the media in the website and it is designed using Canva. https://www.canva.com/
 
