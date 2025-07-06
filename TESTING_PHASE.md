@@ -231,13 +231,21 @@ Validations for the book a table should be present
 **1. Validators**
 
 **_HTML_** **-** [**https://validator.w3.org/nu/**](https://validator.w3.org/nu/)
-
+![homepage screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/homepage.jpg)
+![menupage screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/menupage.jpg)
+![register screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/signup.jpg)
+![login screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/loginpage.jpg)
+![aboutus screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/aboutus.jpg)
+![bookatable screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/bookingpage.jpg)
+![viewbookings screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/viewbookings.jpg)
+![userprofile screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/userprofile.jpg)
+![logout screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/logout.jpg)
 
 **_CSS_** **-** [**https://jigsaw.w3.org/css-validator/**](https://jigsaw.w3.org/css-validator/)
 
 - No CSS issues were there.
 
-![No css issue screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/CSS_noerror.png)
+![No css issue screenshot]()
 
 
 
