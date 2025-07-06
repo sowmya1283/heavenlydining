@@ -30,7 +30,23 @@ Discover something extraordinary. Step into a dining adventure that awakens your
       - [Navigation Links](#navigation-links)
   - [Footer](#footer)
   - [Typography](#typography)
-
+- [IV. Individual Page Content features](#iv)
+  - [Home Page or ‘Welcome To Unique Dining!’ Page](#home-page-or-welcome-to-unique-dining-page)
+  - [Menu Page](#menu-page)
+  - [Login Page](#login-page)
+  - [Sign Up Page](#sign-up-page)
+  - [View Bookings Page](#view-bookings-page)
+  - [Book A Table Page](#book-a-table-page)
+  - [Logout Page](#logout-page)
+  - [About Us Page](#about-us-page)
+- [V. Future Enhancements](#v-future-enhancements)
+- [VI. Testing Phase](#vi-testing-phase)
+- [VII. Deployment](#vii-deployment)
+- [VIII. Credits](#viii-credits)
+  - [Honourable Mentions](#honourable-mentions)
+  - [General References](#general-references)
+  - [Content](#content)
+  - [Media](#media)
 ## IV. Individual Page Content features
 ### - Home Page or Welcome Home Page
 ### - Crazy for Crochet Content Page
@@ -338,7 +354,7 @@ The content is wrapped in a styled card using Bootstrap classes (card, shadow-sm
 
 ## VI. Testing Phase
 
-I have a second document named [TESTING_PHASE.md]() that contains information about testing both during and after development.
+Testing has been taken care and the report can be found in a separate document. Manual Testing is only considered due to time crunch and will be enhanced in future to include Automation Testing. [TESTING_PHASE.md]() that contains information about testing both during and after development.
 
 ## VII. Deployment
 
@@ -354,10 +370,7 @@ I deployed the page on GitHub pages via the following procedure: -
 This project could not have happened without the support of the following people listed in no particular order:
 
 - [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
-- Lewis Dillon: From Code institute For the longest and most comprehensive peer review that I received via our stand-up calls. His feedback was truly amazing
-- Tulio Minini: One of my friend from code institute has been helping me in reviewing the website and provided some great comments.
-- The code institute Slack community as a whole who tested and supported throughout.
-- And the biggest thanks goes to my daughter and my mother who inspires me and encourages me to keep learning.
+- 
 - Code institute tutor support are awesome, they always help in fixing any workspace issues or launching website issues has been very helpful or even tutoring was very helpful.
 
 ### General reference:
