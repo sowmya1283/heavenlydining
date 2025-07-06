@@ -14,6 +14,7 @@ Overview: The Unique Dining website has undergone extensive manual testing to en
 
 - HTML
 - CSS
+- Python (PEP 8)
 
 
 ## III. Open Issues
@@ -162,7 +163,6 @@ Actual Result: As Expected
 Status: Pass
 
 
-
 ### Bugs and Fixes:
 
 During development phase some of the bugs were identified by myself and has been fixed while testing over a live server. over multiple screen resolution simulated the scenarios where a user will try to use the website.
@@ -231,34 +231,47 @@ Validations for the book a table should be present
 **1. Validators**
 
 **_HTML_** **-** [**https://validator.w3.org/nu/**](https://validator.w3.org/nu/)
+
+- Home Page: 
 ![homepage screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/homepage.jpg)
+
+- Menu Page:
 ![menupage screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/menupage.jpg)
+
+- Signup Page:
 ![register screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/signup.jpg)
+
+- Login Page:
 ![login screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/loginpage.jpg)
+
+-AboutUs Page:
 ![aboutus screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/aboutus.jpg)
+
+- Book A Table Page:
 ![bookatable screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/bookingpage.jpg)
+
+- View Bookings Page:
 ![viewbookings screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/viewbookings.jpg)
+
+- User Profile Page
 ![userprofile screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/userprofile.jpg)
+
+- Logout Page:
 ![logout screenshot](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/htmlvalidators/logout.jpg)
 
 **_CSS_** **-** [**https://jigsaw.w3.org/css-validator/**](https://jigsaw.w3.org/css-validator/)
+- An error and vendor warnings are present in CSS file.
 
-- No CSS issues were there.
+![CSS validator screenshot]()
 
-![No css issue screenshot]()
+**_Python Validators_** **-** [**https://pep8ci.herokuapp.com/**](https://pep8ci.herokuapp.com/)
+- Some of the warning for spaces and length too long errors were present in the python code. This will be fixed in the future.
 
-
-
+![Views python screenshot]()
+![Settings python screenshot]()
 
 ## III. Open Issues
 
-### 1. Expected Outcome
-
-**_Issue Found:_**
-- 
-
-### 2. Expected Outcome
-
-**_Issue Found:_**
-
-- 
+- Currently there are no known open issues. (Functionality issues)
+- Some CSS styling can be added in future. 
+- Need to fix CSS style sheet error and vendor warnings.

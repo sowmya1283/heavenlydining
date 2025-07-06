@@ -26,7 +26,9 @@ class MenuView(TemplateView):
 class AboutPageView(TemplateView):
     template_name = 'booktable/aboutus.html'
 
-#This is a class based view that lists all bookings in the database.
+# This is a class based view that lists all bookings in the database.
+
+
 class BookingListView(LoginRequiredMixin, generic.ListView):
 
     template_name = "booktable/booktable_list.html"
@@ -34,11 +36,17 @@ class BookingListView(LoginRequiredMixin, generic.ListView):
     paginate_by = 5
 
     def get_queryset(self):
-        return Booking.objects.filter(user=self.request.user).order_by('-booking_date')
+        return (
+            Booking.objects.
+            filter(user=self.request.user).
+            order_by('-booking_date'))
     
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['booking_count'] = Booking.objects.filter(user=self.request.user).count()
+        context['booking_count'] = (
+            Booking.objects.
+            filter(user=self.request.user).
+            count())
         return context
     
 
@@ -58,27 +66,26 @@ class UserProfileView(LoginRequiredMixin, generic.DetailView):
 
 class BookingCreateView(LoginRequiredMixin, CreateView):
     model = Booking
-    #fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
+    # fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
     form_class = BookTableForm
     template_name = 'booktable/book_table.html'
-    success_url = reverse_lazy('booking_list') # or redirect to a confirmation page
+    # or redirect to a confirmation page
+    success_url = reverse_lazy('booking_list')
 
     def form_valid(self, form):
-        """
-        Override form_valid to associate the booking with the logged-in user.
-        """
-        form.instance.user = self.request.user # Associate the booking with the logged-in user
+        # Associate the booking with the logged-in user
+        form.instance.user = self.request.user
         return super().form_valid(form)
     
     
 class BookingUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Booking
-   # fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
+    # fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
     form_class = BookTableForm
     template_name = 'booktable/edit_booking.html'
     success_url = reverse_lazy('booking_list')
 
-    def form_valid(self,form):
+    def form_valid(self, form):
         form.instance.user = self.request.user  
         return super().form_valid(form)
 
