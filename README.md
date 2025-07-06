@@ -31,7 +31,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [Footer](#footer)
   - [Typography](#typography)
 - [IV. Individual Page Content features](#iv)
-  - [Home Page or ‘Welcome To Unique Dining!’ Page](#home-page-or-welcome-to-unique-dining-page)
+  - [Home Page](#home-page)
   - [Menu Page](#menu-page)
   - [Login Page](#login-page)
   - [Sign Up Page](#sign-up-page)
@@ -188,7 +188,7 @@ The website uses a clean and professional typography style to enhance readabilit
 
 ## IV. Individual Page Content features
 
-### Home Page Or ‘Welcome To Unique Dining!’ Page:
+### Home Page:
 
 - The Home Page of Unique Dining serves as the welcoming entry point for visitors, offering a quick snapshot of what the restaurant stands for. 
 - The top section features a hero image that visually represents the ambiance and character of Unique Dining. 
