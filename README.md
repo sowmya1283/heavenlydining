@@ -366,9 +366,12 @@ Testing has been taken care and the report can be found in a separate document. 
 
 ## VIII. Deployment
 
+The Unique Dining website was deployed to Heroku, a cloud platform that allows developers to host and scale web applications with ease.
 
+This deployment followed the process outlined in the Code Institute's walkthrough projects, with some project-specific adjustments.
+More information can be found in [DEPLOYMENT.md]()
 
-
+Please find the link deployed project on Heroku: [LIVE_APP](https://heavenlydining-1342e173bc9c.herokuapp.com/)
 
 ## IX. Credits
 
