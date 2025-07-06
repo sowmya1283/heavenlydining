@@ -1,3 +1,16 @@
+## Table of Contents
+
+- [Testing Phase Overview](#testing-phase-overview)
+- [I. Testing While Developing](#i-testing-while-developing)
+- [II. Testing Phase](#ii-testing-phase)
+  - [Functional Testing](#functional-testing)
+  - [Negative Testing](#negative-testing)
+  - [Validators](#validators)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Python (PEP 8)](#python-pep-8)
+- [III. Open Issues](#iii-open-issues)
+
 
 # Testing Phase**
 
@@ -18,6 +31,7 @@ Overview: The Unique Dining website has undergone extensive manual testing to en
 
 
 ## III. Open Issues
+
 
 ## I. Testing while developing 
 
