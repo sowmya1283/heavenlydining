@@ -202,7 +202,7 @@ The website uses a clean and professional typography style to enhance readabilit
 
 - The layout is responsive, with Bootstrap classes ensuring the content is well-aligned and accessible across all screen sizes. This page is designed to be visually engaging, informative, and easy to navigate, guiding users further into exploring the menu or booking a table.
 
-![Home Page]()
+![Home Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/homepage.jpg)
 
 **_Hero-Image:_**
 
@@ -218,7 +218,7 @@ The website uses a clean and professional typography style to enhance readabilit
 
 This hero image helps establish a strong first impression and creates a memorable visual identity for the restaurant.
 
-![Hero Image]()
+![Hero Image](https://github.com/sowmya1283/heavenlydining/blob/main/staticfiles/images/hero/hero2.jpg)
 
 ### Menu Page:
 
@@ -235,7 +235,7 @@ This hero image helps establish a strong first impression and creates a memorabl
 - Prices are clearly marked in euros (€) and aligned to the right using float-end for a professional menu layout. Responsive design ensures the menu is accessible and legible on all screen sizes. 
 - This page provides users with a flavorful glimpse into the Unique Dining experience, combining traditional Irish cuisine with a polished and accessible presentation.
 
-![Menu Page]()
+![Menu Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/menupage.jpg)
 
 ### Login Page:
 
@@ -245,7 +245,7 @@ This hero image helps establish a strong first impression and creates a memorabl
 - The interface is clean and minimal, keeping user focus on the login form.
 - The login page also contains a link to the registration page, encouraging new users to sign up if they don’t have an account.
 
-![Login Page]()
+![Login Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/loginpage.jpg)
 
 ### Sign up Page:
 
@@ -260,7 +260,7 @@ After signing up, users can:
 - Log in and access the table booking features.
 - View and manage their personal profile and booking history.
 
-![Signup Page]()
+![Signup Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/signuppage.jpg)
 
 ### View Bookings Page
 
@@ -278,7 +278,7 @@ After signing up, users can:
 - User can go back to 'Book A Table' link anytime and book a new table.
 - This page offers a centralized hub for users to manage their dining plans, enhancing usability and giving users a sense of control and trust in the platform.
 
-![View Bookings Page]()
+![View Bookings Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/viewbookings.jpg)
 
 ### Book A Table Page
 
@@ -299,7 +299,7 @@ After signing up, users can:
 
 With this setup, Unique Dining ensures efficient table management while providing guests with a smooth, reliable booking experience.
 
-![Book Table Page]()
+![Book Table Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/bookatable.jpg)
 
 ### Logout Page
 
@@ -307,7 +307,7 @@ With this setup, Unique Dining ensures efficient table management while providin
 - This ensures that user data and booking information remain private and secure. A confirmation message is displyed to the user asking whether they really want to logout?
 - This functionality is managed using Django Allauth, which handles session termination securely and efficiently.
 
-![Logout page]()
+![Logout page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/logoutpage.jpg)
 
 ### About Us Page
 
@@ -322,7 +322,7 @@ Key highlights of the page include:
 
 The content is wrapped in a styled card using Bootstrap classes (card, shadow-sm, p-4), offering a visually appealing and readable format that matches the overall theme of the website.
 
-![About us page]()
+![About us page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/aboutus.jpg)
 
 ## V. Future-Enhancements
 
