@@ -47,20 +47,6 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [General References](#general-references)
   - [Content](#content)
   - [Media](#media)
-## IV. Individual Page Content features
-### - Home Page or Welcome Home Page
-### - Crazy for Crochet Content Page
-### - Mosaic Art Content Page
-### - Quilling Craft Content Page
-### - Sign Up Page
-## V. Future-Enhancements
-## VI. Testing Phase
-## VII. Deployment
-## VIII. Credits
-### - Honourable mentions
-### - General reference
-### - Content
-### - Media
 
 
 ## II. Planning stage
@@ -360,8 +346,8 @@ Testing has been taken care and the report can be found in a separate document. 
 
 I deployed the page on GitHub pages via the following procedure: -
 
-- 
-- You can find the live site via the following URL- https://sowmya1283.github.io/handmadehobbies/
+- Deployment instructions are provided in the document- 
+- You can find the live site via the following URL- 
 
 ## VIII. Credits
 
@@ -369,23 +355,23 @@ I deployed the page on GitHub pages via the following procedure: -
 
 This project could not have happened without the support of the following people listed in no particular order:
 
-- [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
-- 
-- Code institute tutor support are awesome, they always help in fixing any workspace issues or launching website issues has been very helpful or even tutoring was very helpful.
+- [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has been helping me to structure the project and guiding me all along the development of Book A Table website. 
+- Code institute tutor support are always helpful and available to students anytime. I have used them whenever I was stuck with the project. Without them project wouldn't have been completed successfully.
 
 ### General reference:
 
-- The Code Institute’s “Love Running” code-along initiative had an impact on the project. Even though I made every effort to diverge, there might still be some code similarities.
-- Throughout the project, I used stack overflow, google, and W3schools as general references.
+- The Code Institute’s walkthrough project 'I Think Therefore I Blog' is referred all along for structure, authentication, views, model creations, to install required software and deployment and much more.
+
+- For reference throughout the project, I have used ChatGPT, Google, Various Design website etc..
 
 ### Content:
 
-- All content was written by myself except some used from chatGPT: https://chatgpt.com/
-- Some of the handcraft text contents were inspired by wikipedia: https://www.wikipedia.org/
+- Content was from myself and some reference has been taken from chatGPT: https://chatgpt.com/
+- Some of the research was done through google for the website functionality: https://www.google.com
 - Icons in the footer were taken from Font Awesome: https://fontawesome.com/
 - Header, text content fonts imported from Google Fonts: https://fonts.google.com/
 
 ### Media:
 
-1. Handmade Hobbies logo is generated and modified from - https://ideogram.ai/ and Canva respectively.
+1. Only hero image is the media in the website and it is designed using Canva.
 

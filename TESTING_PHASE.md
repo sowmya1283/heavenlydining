@@ -4,16 +4,11 @@
 Overview: The Unique Dining website has undergone extensive manual testing to ensure functionality, usability, responsiveness, and compatibility across various devices and browsers. Below are the major testing categories and results.
 
 ## I. Testing While Developing 
-- Manual Testing
-- Bugs and Fixes
 
  ## II. Testing Phase**
 
  **Functional Testing**
  **Negative Testing**
-
-- 
-- 
 
 **Validators**
 
