@@ -47,6 +47,7 @@ class BookTableForm(forms.ModelForm):
         size = self.cleaned_data.get('table_size')
         if size is None:
             raise forms.ValidationError("Table size is required.")
-        if size and (size < 1 or size > 20):
+        if (size < 1 or size > 20):
             raise forms.ValidationError("Table size must be a positive integer between 1 and 20.")
         return size
+    

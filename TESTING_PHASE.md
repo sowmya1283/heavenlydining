@@ -78,7 +78,7 @@ Status: Pass
 - FTC_6:
 
 Feature Tested: View Bookings Page.
-Test Scenario: View confirmed Bookings.	
+Test Scenario: User can view confirmed Bookings.	
 Expected Result: Shows user’s bookings
 Actual Result: As Expected
 Status: Pass
@@ -113,6 +113,14 @@ Status: Pass
 Feature Tested: Footer
 Test Scenario: Verify links and social icons work
 Expected Result: Correct external links open in new tab
+Actual Result: As Expected
+Status: Pass
+
+- FTC_11:
+
+Feature Tested: When No bookings are present
+Test Scenario: Verify user is displayed with correct information when he has not made any bookings.
+Expected Result: Correct message is displayed to the user.
 Actual Result: As Expected
 Status: Pass
 
@@ -162,7 +170,7 @@ During development phase some of the bugs were identified by myself and has been
 Bugs discovered when testing using VSCode's live server addon is provided below. I experimented with every element to see how it would appear to potential consumers on a variety of screen widths, ranging from 320px to 4000px:
 
  #### 1. Expected Outcome
-- Logged in user is able to book a table
+Logged in user is able to book a table
 
 **_Issue Found:_**
 -   When user clicked on Book A Table link, link was broken.
@@ -171,16 +179,16 @@ Bugs discovered when testing using VSCode's live server addon is provided below.
 - Updated the Book A Table link correctly
 
 #### 2. Expected Outcome
-- User Profile information Should be displayed correctly excluding emply values.
+User Profile information Should be displayed correctly excluding emply values.
 
 **_Issue Found:_**
-- User Profile information had blank values and inconsistent information. 
+- User Profile information had blank values and inconsistent values. 
 
 **_Solution Used:_**
 - Resolved this issue by adding logical checks and validated for consistent and valid information
 
 #### 3. Expected Outcome
-- All the pagination is working properly
+All the pagination in 'View Bookings' page is working properly.
 
 **_Issue Found:_**
 - Pagination links and data were not displayed properly. Morethan 5 booking reservations were excluded
@@ -189,57 +197,50 @@ Bugs discovered when testing using VSCode's live server addon is provided below.
 - Fixed the issue in the code by adding page obejcts values and its functionality for pagination
 
 #### 4. Expected Outcome
-- User should be able to book a table only in the future date.
+User should be able to book a table only in the future date.
 
 **_Issue Found:_**
-- User was able to book a table in the past
+- User was able to book a table in the past date.
 
 **_Solution Used:_**
 - Fixed it by adding validation to the date field to include date > current date
 
 #### 5. Expected Outcome
-
+User should not be able to book with table size as 0.
 
 **_Issue Found:_**
-
-- 
+- User was able to book a table with table size as 0.
 
 **_Solution Used:_**
-
-- 
+- Fixed the code where logical check was not evaluating the condition properly
 
 #### 6. Expected Outcome
-
+All the cosmetic changes should be correct.
 
 **_Issue Found:_**
-
-- 
+- Had found many cosmetic issues throughout the website.
 
 **_Solution Used:_**
-
-- 
+- All the cosmetic issues were fixed and revalidated throughout the website
 
 #### 7. Expected Outcome
-
+User should be able to edit/modify his/her booking
 
 **_Issue Found:_**
-
-- 
+- User waa not able to edit his/her booking if he/she changes their mind
 
 **_Solution Used:_**
-
-- 
+- Fixed the issue by loading the static file correctly
 
 #### 8. Expected Outcome
-
+Validations for the book a table should be present
 
 **_Issue Found:_**
-
-- 
+- Validations for the updating a table form was present, and user could book a table with 0 users, in the past date and before/after 10:00 and 22:00
 
 **_Solution Used:_**
+- Fixed the views for update booking to include validate code 
 
-- 
 ## II. Testing Phase
 
 

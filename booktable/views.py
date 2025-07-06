@@ -73,7 +73,8 @@ class BookingCreateView(LoginRequiredMixin, CreateView):
     
 class BookingUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Booking
-    fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
+   # fields = ['table_size', 'booking_date', 'booking_time', 'allergies']
+    form_class = BookTableForm
     template_name = 'booktable/edit_booking.html'
     success_url = reverse_lazy('booking_list')
 
