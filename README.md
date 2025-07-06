@@ -30,7 +30,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
       - [Navigation Links](#navigation-links)
   - [Footer](#footer)
   - [Typography](#typography)
-- [IV. Individual Page Content features](#iv)
+- [IV. Individual Page Content Features](#iv-individual-page-content-features)
   - [Home Page](#home-page)
   - [Menu Page](#menu-page)
   - [Login Page](#login-page)
@@ -186,7 +186,7 @@ The website uses a clean and professional typography style to enhance readabilit
 - A fallback of sans-serif ensures that if the custom fonts are unavailable, the site remains readable and clean using the browser’s default sans-serif font
 - All fonts are selected with accessibility and user experience in mind, and performance is optimized by using widely supported, lightweight fonts.
 
-## IV. Individual Page Content features
+## IV. Individual Page Content Features
 
 ### Home Page:
 
@@ -218,7 +218,7 @@ The website uses a clean and professional typography style to enhance readabilit
 
 This hero image helps establish a strong first impression and creates a memorable visual identity for the restaurant.
 
-![Hero Image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/hero.png)
+![Hero Image]()
 
 ### Menu Page:
 
