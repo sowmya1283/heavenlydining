@@ -288,3 +288,4 @@ Validations for the book a table should be present
 - Currently there are no known open issues. (Functionality issues)
 - Some CSS styling can be added in future. 
 - Need to fix CSS style sheet error and vendor warnings.
+- Nav bar active page links have inconsitant behaviour, will be fixed in next build.
