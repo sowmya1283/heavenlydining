@@ -30,7 +30,8 @@ Discover something extraordinary. Step into a dining adventure that awakens your
       - [Navigation Links](#navigation-links)
   - [Footer](#footer)
   - [Typography](#typography)
-- [IV. Individual Page Content Features](#iv-individual-page-content-features)
+- [IV. Agile Methodology](#iv-agile-methodology)
+- [V. Features](#v-features)
   - [Admin Page](#admin-page)
   - [Home Page](#home-page)
   - [Menu Page](#menu-page)
@@ -40,10 +41,10 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [Book A Table Page](#book-a-table-page)
   - [Logout Page](#logout-page)
   - [About Us Page](#about-us-page)
-- [V. Future Enhancements](#v-future-enhancements)
-- [VI. Testing Phase](#vi-testing-phase)
-- [VII. Deployment](#vii-deployment)
-- [VIII. Credits](#viii-credits)
+- [VI. Future Enhancements](#vi-future-enhancements)
+- [VII. Testing Phase](#vii-testing-phase)
+- [VIII. Deployment](#viii-deployment)
+- [IX. Credits](#ix-credits)
   - [Honourable Mentions](#honourable-mentions)
   - [General References](#general-references)
   - [Content](#content)
@@ -187,12 +188,30 @@ The website uses a clean and professional typography style to enhance readabilit
 - A fallback of sans-serif ensures that if the custom fonts are unavailable, the site remains readable and clean using the browser’s default sans-serif font
 - All fonts are selected with accessibility and user experience in mind, and performance is optimized by using widely supported, lightweight fonts.
 
-## IV. Features
+## IV. Agile Methodology
+
+The Agile methodology is an iterative and incremental approach to software development that emphasizes collaboration, flexibility, continuous feedback, and rapid delivery of functional features.
+
+**_key-principles:_**
+- Customer collaboration over contract negotiation
+- Responding to change over following a fixed plan
+- Working software over comprehensive documentation
+- Individuals and interactions over processes and tools
+
+**_Agile in Unique Dining Project:_**
+- The Unique Dining website was developed using Agile Kanban practices, allowing for:
+- Continuous integration of features like booking, user authentication, and menu updates
+- Frequent testing and delivery
+- Prioritized delivery of core features first (MVP) and will be adding more to future enhancements.
+- The use of a Kanban board to visualize work and manage progress.
+[AGILE.md]() 
+
+## V. Features
 
 ### Admin Page:
 The Admin Page is a backend interface provided by Django (or your web framework) that allows site administrators to manage the website’s data and content through a secure, user-friendly interface. This page was the first page to setup.
 
-![Admin Page]()
+![Admin Page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/adminpage.jpg)
 
 ### Home Page:
 
@@ -330,7 +349,7 @@ The content is wrapped in a styled card using Bootstrap classes (card, shadow-sm
 
 ![About us page](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/aboutus.jpg)
 
-## V. Future-Enhancements
+## VI. Future-Enhancements
 
 - Booking as a guest: Allow users to book a table without needing to register or log in. A simple form would collect basic details like name, email, and phone number.
 - Online Food Ordering System: Enable users to browse the full menu, add items to a cart, and place food orders for delivery or pickup.
@@ -344,17 +363,17 @@ The content is wrapped in a styled card using Bootstrap classes (card, shadow-sm
 - Multilingual Support: Add support for multiple languages to make the site accessible to a broader audience.
 - Accessibility Improvements: Improve accessibility for users with disabilities by refining keyboard navigation, adding ARIA labels, and adjusting contrast settings.
 
-## VI. Testing Phase
+## VII. Testing Phase
 
 Testing has been taken care and the report can be found in a separate document. Manual Testing is only considered due to time crunch and will be enhanced in future to include Automation Testing. [TESTING_PHASE.md](https://github.com/sowmya1283/heavenlydining/blob/main/TESTING_PHASE.md) that contains information about testing both during and after development.
 
-## VII. Deployment
+## VIII. Deployment
 
 
 
 
 
-## VIII. Credits
+## IX. Credits
 
 ### Honourable mentions:
 
