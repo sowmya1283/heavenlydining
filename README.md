@@ -31,6 +31,7 @@ Discover something extraordinary. Step into a dining adventure that awakens your
   - [Footer](#footer)
   - [Typography](#typography)
 - [IV. Individual Page Content Features](#iv-individual-page-content-features)
+  - [Admin Page](#admin-page)
   - [Home Page](#home-page)
   - [Menu Page](#menu-page)
   - [Login Page](#login-page)
@@ -186,7 +187,12 @@ The website uses a clean and professional typography style to enhance readabilit
 - A fallback of sans-serif ensures that if the custom fonts are unavailable, the site remains readable and clean using the browser’s default sans-serif font
 - All fonts are selected with accessibility and user experience in mind, and performance is optimized by using widely supported, lightweight fonts.
 
-## IV. Individual Page Content Features
+## IV. Features
+
+### Admin Page:
+The Admin Page is a backend interface provided by Django (or your web framework) that allows site administrators to manage the website’s data and content through a secure, user-friendly interface. This page was the first page to setup.
+
+![Admin Page]()
 
 ### Home Page:
 
@@ -362,6 +368,10 @@ This project could not have happened without the support of the following people
 - The Code Institute’s walkthrough project 'I Think Therefore I Blog' is referred all along for structure, authentication, views, model creations, to install required software and deployment and much more.
 
 - For reference throughout the project, I have used ChatGPT, Google, Various Design website etc..
+
+- For learning python and Django basics I have used the CS50 courses on youtube.
+   https://www.youtube.com/watch?v=nLRL_NcnK-4
+   https://www.youtube.com/watch?v=YzP164YANAU&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=6
 
 ### Content:
 
