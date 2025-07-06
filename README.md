@@ -71,7 +71,6 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 - As a guest (unauthorized user), I want to be redirected to log in or sign up when I try to book a table so I understand that booking is only available to registered users.
 - As a logged-in user, I want to view my past reservations so I can keep track of my dining history.
 
-
 ### Site Aims:
 
 - To introduce and celebrate Irish cuisine through a thoughtfully crafted menu highlighting local ingredients and traditional recipes.
@@ -93,7 +92,6 @@ Discover something extraordinary. Step into a dining adventure that awakens your
 ### Wireframes:
 
 Wireframes were added to this project to keep my thoughts structured and to avoid any discrepancies from the actual website design. Links to the five targeted pages on desktop and mobile platforms are provided below.
-
 
 **_Wireframe Links:_**
 
@@ -161,7 +159,6 @@ For New Users:
 - Navigation links are aligned to the right (ms-auto), enhancing layout and readability.
 - If fixed-top or sticky-top is added, the navbar can stay at the top of the page as users scroll.
 
-
 ![Hover over highlight](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/navlinkhover.jpg) 
 
 ### Footer
@@ -204,7 +201,7 @@ The Agile methodology is an iterative and incremental approach to software devel
 - Frequent testing and delivery
 - Prioritized delivery of core features first (MVP) and will be adding more to future enhancements.
 - The use of a Kanban board to visualize work and manage progress.
-[AGILE.md]() 
+[AGILE.md](https://github.com/sowmya1283/heavenlydining/blob/main/AGILE.md) 
 
 ## V. Features
 
@@ -398,6 +395,7 @@ This project could not have happened without the support of the following people
 - Some of the research was done through google for the website functionality: https://www.google.com
 - Icons in the footer were taken from Font Awesome: https://fontawesome.com/
 - Header, text content fonts imported from Google Fonts: https://fonts.google.com/
+- For creation of wireframes, I have used the balsemic website: https://balsamiq.cloud/
 
 ### Media:
 

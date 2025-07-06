@@ -4,7 +4,7 @@
 
 The development of the Unique Dining website followed an Agile methodology, specifically using a Kanban board approach to manage tasks and workflow efficiently.
 
-[Kanban Board]()
+[Kanban Board](https://github.com/sowmya1283/heavenlydining/blob/main/docs/screenshots/kanbanboard.jpg)
 
 ### Why Kanban?
 
