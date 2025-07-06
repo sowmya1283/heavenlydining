@@ -340,14 +340,13 @@ The content is wrapped in a styled card using Bootstrap classes (card, shadow-sm
 
 ## VI. Testing Phase
 
-Testing has been taken care and the report can be found in a separate document. Manual Testing is only considered due to time crunch and will be enhanced in future to include Automation Testing. [TESTING_PHASE.md]() that contains information about testing both during and after development.
+Testing has been taken care and the report can be found in a separate document. Manual Testing is only considered due to time crunch and will be enhanced in future to include Automation Testing. [TESTING_PHASE.md](https://github.com/sowmya1283/heavenlydining/blob/main/TESTING_PHASE.md) that contains information about testing both during and after development.
 
 ## VII. Deployment
 
-I deployed the page on GitHub pages via the following procedure: -
 
-- Deployment instructions are provided in the document- 
-- You can find the live site via the following URL- 
+
+
 
 ## VIII. Credits
 

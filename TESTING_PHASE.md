@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [Testing Phase Overview](#testing-phase-overview)
+- [Testing Phase](#testing-phase)
 - [I. Testing While Developing](#i-testing-while-developing)
 - [II. Testing Phase](#ii-testing-phase)
   - [Functional Testing](#functional-testing)
@@ -45,6 +45,7 @@ Iterative Testing:
 - Forms (Login, Signup, Book a Table): Inputs were validated continuously with various edge cases during form development.
 - Booking Logic: Booking form submission was tested after each logic update to verify time slot and guest handling.
 
+## II. Testing Phase
 
 ### Manual Testing:
 
@@ -238,8 +239,6 @@ Validations for the book a table should be present
 - Validations for the updating a table form was present, and user could book a table with 0 users, in the past date and before/after 10:00 and 22:00
 **_Solution Used:_**
 - Fixed the views for update booking to include validate code 
-
-## II. Testing Phase
 
 
 **1. Validators**
